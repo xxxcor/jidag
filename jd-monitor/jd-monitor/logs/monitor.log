@@ -1,0 +1,641 @@
+2026-02-01 16:35:00 | DEBUG   | asyncio | Using proactor: IocpProactor
+2026-02-01 16:35:00 | INFO    | src.cookie_manager | Cookie 加载成功
+2026-02-01 16:37:46 | DEBUG   | asyncio | Using proactor: IocpProactor
+2026-02-01 16:37:46 | INFO    | src.cookie_manager | Cookie 加载成功
+2026-02-01 16:37:57 | INFO    | src.cookie_manager | Cookie 格式检查通过，用户: jd_5f952e33ff3b5
+2026-02-01 16:38:05 | DEBUG   | asyncio | Using proactor: IocpProactor
+2026-02-01 16:38:09 | INFO    | src.notifier | Telegram 连接成功，Bot: @onlybulidbbot
+2026-02-01 16:38:12 | ERROR   | src.notifier | Telegram 请求失败: 403
+2026-02-01 16:38:19 | ERROR   | src.notifier | Telegram 请求失败: 403
+2026-02-01 16:38:26 | ERROR   | src.notifier | Telegram 请求失败: 403
+2026-02-01 16:40:16 | DEBUG   | asyncio | Using proactor: IocpProactor
+2026-02-01 16:40:19 | INFO    | src.notifier | Telegram 连接成功，Bot: @onlybulidbbot
+2026-02-01 16:40:21 | INFO    | src.notifier | Telegram 消息发送成功
+2026-02-01 16:41:09 | DEBUG   | asyncio | Using proactor: IocpProactor
+2026-02-01 16:41:09 | INFO    | src.monitor | ==================================================
+2026-02-01 16:41:09 | INFO    | src.monitor | 京东商品监控启动
+2026-02-01 16:41:09 | INFO    | src.monitor | 监控间隔: 60 秒
+2026-02-01 16:41:09 | INFO    | src.monitor | 监控模式: multi
+2026-02-01 16:41:09 | INFO    | src.monitor | 监控商品数: 2
+2026-02-01 16:41:09 | INFO    | src.monitor |   - 示例商品1
+2026-02-01 16:41:09 | INFO    | src.monitor |   - 示例商品2
+2026-02-01 16:41:11 | INFO    | src.notifier | Telegram 连接成功，Bot: @onlybulidbbot
+2026-02-01 16:41:13 | INFO    | src.notifier | Telegram 消息发送成功
+2026-02-01 16:41:13 | INFO    | src.monitor | ==================================================
+2026-02-01 16:41:13 | INFO    | src.monitor | 开始检查 - 2026-02-01 16:41:13
+2026-02-01 16:41:13 | INFO    | src.cookie_manager | Cookie 加载成功
+2026-02-01 16:41:25 | INFO    | src.cookie_manager | Cookie 格式检查通过，用户: jd_5f952e33ff3b5
+2026-02-01 16:41:25 | INFO    | src.monitor | 没有找到历史状态文件，首次运行
+2026-02-01 16:41:40 | ERROR   | src.jd_api | 请求失败 https://p.3.cn/prices/mgets: 
+2026-02-01 16:41:54 | ERROR   | src.jd_api | 请求失败 https://c0.3.cn/stocks: 
+2026-02-01 16:41:58 | DEBUG   | src.jd_api | 获取商品信息成功: SKU=100012043978, 名称=【茅台白酒】茅台飞天 53%vol  5...
+2026-02-01 16:41:58 | INFO    | src.monitor | 检查商品: 示例商品1 | 价格: ¥0.0 | 库存: 未知
+2026-02-01 16:41:58 | INFO    | src.monitor | 检测到变化: 示例商品1, 变化: {'is_new': True}
+2026-02-01 16:42:03 | INFO    | src.notifier | Telegram 消息发送成功
+2026-02-01 16:42:12 | INFO    | __main__ | 监控已停止
+2026-02-01 16:50:44 | DEBUG   | asyncio | Using proactor: IocpProactor
+2026-02-01 16:50:44 | INFO    | src.monitor | ==================================================
+2026-02-01 16:50:44 | INFO    | src.monitor | 京东商品监控启动
+2026-02-01 16:50:44 | INFO    | src.monitor | 监控间隔: 60 秒
+2026-02-01 16:50:44 | INFO    | src.monitor | 监控模式: multi
+2026-02-01 16:50:44 | INFO    | src.monitor | 监控商品数: 2
+2026-02-01 16:50:44 | INFO    | src.monitor |   - 示例商品1
+2026-02-01 16:50:44 | INFO    | src.monitor |   - 示例商品2
+2026-02-01 16:50:48 | INFO    | src.notifier | Telegram 连接成功，Bot: @onlybulidbbot
+2026-02-01 16:50:48 | INFO    | __main__ | 监控已停止
+2026-02-01 16:50:53 | DEBUG   | asyncio | Using proactor: IocpProactor
+2026-02-01 16:50:53 | INFO    | src.monitor | ==================================================
+2026-02-01 16:50:53 | INFO    | src.monitor | 京东商品监控启动
+2026-02-01 16:50:53 | INFO    | src.monitor | 监控间隔: 60 秒
+2026-02-01 16:50:53 | INFO    | src.monitor | 监控模式: multi
+2026-02-01 16:50:53 | INFO    | src.monitor | 监控商品数: 2
+2026-02-01 16:50:53 | INFO    | src.monitor |   - 理光相机1
+2026-02-01 16:50:53 | INFO    | src.monitor |   - 理光相机2
+2026-02-01 16:50:55 | INFO    | src.notifier | Telegram 连接成功，Bot: @onlybulidbbot
+2026-02-01 16:50:57 | INFO    | src.notifier | Telegram 消息发送成功
+2026-02-01 16:50:57 | INFO    | src.monitor | ==================================================
+2026-02-01 16:50:57 | INFO    | src.monitor | 开始检查 - 2026-02-01 16:50:57
+2026-02-01 16:50:57 | INFO    | src.cookie_manager | Cookie 加载成功
+2026-02-01 16:51:10 | INFO    | src.cookie_manager | Cookie 格式检查通过，用户: jd_5f952e33ff3b5
+2026-02-01 16:51:10 | INFO    | src.monitor | 没有找到历史状态文件，首次运行
+2026-02-01 16:51:25 | ERROR   | src.jd_api | 请求失败 https://p.3.cn/prices/mgets: 
+2026-02-01 16:51:37 | ERROR   | src.jd_api | 请求失败 https://c0.3.cn/stocks: 
+2026-02-01 16:51:44 | DEBUG   | src.jd_api | 获取商品信息成功: SKU=100268293328, 名称=【理光GRIIIx HDF】理光（Ric...
+2026-02-01 16:51:44 | INFO    | src.monitor | 检查商品: 理光相机1 | 价格: ¥0.0 | 库存: 未知
+2026-02-01 16:51:44 | INFO    | src.monitor | 检测到变化: 理光相机1, 变化: {'is_new': True}
+2026-02-01 16:51:46 | INFO    | src.notifier | Telegram 消息发送成功
+2026-02-01 16:51:59 | ERROR   | src.jd_api | 请求失败 https://p.3.cn/prices/mgets: 
+2026-02-01 16:52:03 | INFO    | __main__ | 监控已停止
+2026-02-01 16:54:33 | DEBUG   | asyncio | Using proactor: IocpProactor
+2026-02-01 16:54:33 | INFO    | src.monitor | ==================================================
+2026-02-01 16:54:33 | INFO    | src.monitor | 开始检查 - 2026-02-01 16:54:33
+2026-02-01 16:54:33 | INFO    | src.cookie_manager | Cookie 加载成功
+2026-02-01 16:54:44 | INFO    | src.cookie_manager | Cookie 格式检查通过，用户: jd_5f952e33ff3b5
+2026-02-01 16:54:44 | INFO    | src.monitor | 没有找到历史状态文件，首次运行
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Adding (b':method', b'GET') to the header table, sensitive:False, huffman:True
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 2 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Adding (b':authority', b'item.jd.com') to the header table, sensitive:False, huffman:True
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 1 with 6 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 8 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Adding (b':scheme', b'https') to the header table, sensitive:False, huffman:True
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 7 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Adding (b':path', b'/100268293328.html') to the header table, sensitive:False, huffman:True
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 4 with 6 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 13 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Adding (b'user-agent', b'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36') to the header table, sensitive:False, huffman:True
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 58 with 6 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 85 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Adding (b'accept', b'application/json, text/javascript, */*; q=0.01') to the header table, sensitive:False, huffman:True
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 19 with 6 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 34 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Adding (b'accept-language', b'zh-CN,zh;q=0.9,en;q=0.8') to the header table, sensitive:False, huffman:True
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 17 with 6 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 19 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Adding (b'accept-encoding', b'gzip, deflate, br') to the header table, sensitive:False, huffman:True
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 16 with 6 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 13 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Adding (b'referer', b'https://www.jd.com/') to the header table, sensitive:False, huffman:True
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 51 with 6 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 15 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Adding (b'cookie', b'__jdv=76161171|www.google.com|-|referral|-|1769933663562; __jdu=17699336635622125707106; areaId=12; ipLoc-djd=12-978-0-0; PCSYCityID=CN_320000_320400_0; wlfstk_smdl=t2gzi4uh2jn1va0suygk1cx7qp7upk2i; TrackID=1CGQQkzh4XvSvxTFsXxfJAtxVMo2xlzjzzE1PYOT75uWFuHFJBkzH13y1wCFmev9bXn5HpV5_SaavtGN7Q2AAj26aGyiiYO56ovFdXK0BzfI; thor=E4A2194D6947E4964A761D782F8E5EC8BBDEE9C20241F5F15B7077B0BDA915A420A65BCDC9C1CBF24FCDBE57B004D11D5933F2D2FBCC97D3AB6F91DB95567ED5C782116AC1830F785534A268CFED2F4BC9890077A96820DCD5AFBF8C2E2B7E9D94C8CE710299BDC42C7255B5DCCC4E1298044921486EA3A8FBC7C6E47AEB5B22BF1C0EC9A31960C14C920021B18DFE722D09D9EE3D3F9C17E87CF1F1B9733348; light_key=AASBKE7rOxgWQziEhC_QY6yaCAWZLW3n0AtNjeSioZ8eQpB_b76KKvdBRrVfTNxd9gPq6ev_; pinId=DBIf8lqDiAl91ZGLpltf2LV9-x-f3wj7; pin=jd_5f952e33ff3b5; unick=o%E5%B1%B1%E6%B2%B3o; ceshi3.com=201; _tp=xtQBvjl7Xr1MLbVzYpux0RBIsOkEcqNYIOYXe5Rs7MU%3D; _pst=jd_5f952e33ff3b5; cn=7; mail_times=4%2C1%2C1769933692464; shshshfpa=91331422-58f9-205b-5ad4-d314868ebdde-1769933695; shshshfpx=91331422-58f9-205b-5ad4-d314868ebdde-1769933695; source=PC; platform=pc; __jda=211148491.17699336635622125707106.1769933664.1769933664.1769933664.1; __jdc=211148491; wxa_level=1; retina=0; cid=9; jxsid=17699341038857286806; appCode=ms0ca95114; mba_muid=17699336635622125707106; webp=1; visitkey=7687779492450605446; cd_eid=jdd03CHJSZ4NJUK6O7GS5TFIL4OJPQI5BVYRURFVAYFHQG43DMIB52TQDWUS4IZN2RGSF2IOIH2ZMU5SPVQZ5TRYGFRRDUIAAAAM4DBCHGFYAAAAACQ7YWH67RZLV3IX; 3AB9D23F7A4B3CSS=jdd03CHJSZ4NJUK6O7GS5TFIL4OJPQI5BVYRURFVAYFHQG43DMIB52TQDWUS4IZN2RGSF2IOIH2ZMU5SPVQZ5TRYGFRRDUIAAAAM4DBFSWQIAAAAADJCR5TC4CXSF7YX; 3AB9D23F7A4B3C9B=CHJSZ4NJUK6O7GS5TFIL4OJPQI5BVYRURFVAYFHQG43DMIB52TQDWUS4IZN2RGSF2IOIH2ZMU5SPVQZ5TRYGFRRDUI; _gia_d=1; PPRD_P=UUID.17699336635622125707106; jxsid_s_u=https%3A//my.m.jd.com/; sc_width=1920; flash=3_7oATSyAmlWBS58dqA6QZwF6fulainm6n-0n0GkF9p1HdrYFGdj-lzDNyLTynNmE59VI1r8UFjrYZZBreVAvih7KebIjWRrUgsC3TP3JiyNSRA8TKojmncl67MgCDo_GoBCZLa8tQ_bfb_zx9y8k7XlEcVJTxLqcmB1TLO2uk8QBnry3VFr5tTV**; shshshfpb=BApXWH69DG_lAxboyqr7O7-gdumM9SAwEBivSMbpo9xJ1ItZfQtPQy0-5iXipNYAgceC53b6OsqFbc7Bgua5asdp9Zlzg_GEDvUwB; jcap_dvzw_fp=2XrgrDse1Kt9DuORIzSkKgPdYh2y_mHI7dI1KMo52W3LfGgvurOwCYFnndHbE2lBwHZuAYVkDgutbiNp52g7XX3UiAQ=; TrackerID=CK85NNoOw615MvgDUej2TFmhVAlZYxBKZj6wugxAvoDb2P_LQIR8PWDk-yypyr8Ud4LbnvQHNi8pQfB4JnroQzR06KBCYDDunYY_Vndwb0Y; pt_key=AAJpfw0wADCJnawb_PHFwOccZrKmBJkptNR4nTAt-lCoy8V3YmK1rUHWjNbPEc6meeCg20x0FG4; pt_pin=jd_5f952e33ff3b5; pt_st=1_DEjYh_XmA1A5Kxw1pEaej14Lz6aq2D1mQyRq7vKVS0Z2zLEP-ii1OZJtPGKMltIZaiLo8NyRpLp9OMckiUdcot4o-CvuXAdam7YypbOuTlyX9fvWeX8qAs1_AqpuJmtac3RRuRnfjPXMBV5um2aKCDbvYZsI4FRLDi6jcWpf4Szvymp2Is8qwnELWuY3ki9edFYpo_Rfab4ouhMLe3PTBdxRoQm4zRoV92cL9d2P; pt_token=4ls0rbm3; pwdt_id=jd_5f952e33ff3b5; sfstoken=tk01mf6f61e16a8sMysxKzF4MngziLrKelmUYS00+3zBuZnVkroVSCp5JsUatzGWuIkfkos1iNBrLUEyHQnQGBHpsupn; whwswswws=; autoOpenApp_downCloseDate_jd_homePage=1769934197741_1; wqmnx1=MDEyNjM2MGgvLm04OTBvL1dzMGl4cGIzKCwgKW0uIGkzM2ZmMjVWRUlVKFI%3D; __jdb=211148491.31.17699336635622125707106|1.1769933664; mba_sid=1769934103906357749933.12; jxsid_s_t=1769934202407; __jd_ref_cls=MDownLoadFloat_ApiDownloadAppLayerConfigData; sdtoken=AAbEsBpEIOVjqTAKCQtvQu17s5duP8gxnOjcQIxpsWUjOQ5IaDlG2RHJIRv4wkVTFOpcUV21LpWZ2S2jZzwYRFQ9AXBkbjz1-f3A8yJgJDYhB7hTwun-VpYRxthlIRXMMbkqltfRm8465Fmkb1O-B2FPQm2eAr8-TIT0eAWVhcwDfFZd') to the header table, sensitive:False, huffman:True
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 32 with 6 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 2611 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Adding (b'sec-ch-ua', b'"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"') to the header table, sensitive:False, huffman:True
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 7 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 55 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Adding (b'sec-ch-ua-mobile', b'?0') to the header table, sensitive:False, huffman:True
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 11 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 2 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Adding (b'sec-ch-ua-platform', b'"Windows"') to the header table, sensitive:False, huffman:True
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 13 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 8 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.table | Evicting b':authority': b'item.jd.com' from the header table
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Adding (b'sec-fetch-dest', b'empty') to the header table, sensitive:False, huffman:True
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 10 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 4 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.table | Evicting b':path': b'/100268293328.html' from the header table
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Adding (b'sec-fetch-mode', b'cors') to the header table, sensitive:False, huffman:True
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 10 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 3 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.table | Evicting b'user-agent': b'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' from the header table
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Adding (b'sec-fetch-site', b'same-site') to the header table, sensitive:False, huffman:True
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 10 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoding 6 with 7 bits
+2026-02-01 16:54:49 | DEBUG   | hpack.hpack | Encoded header block to b'\x82A\x882KJ\xfd$\\\x87\xa7\x87D\x8d` \x00\x9cxO\xb2\xc8\x9e^t\xd3Gz\xd5\xd0\x7ff\xa2\x81\xb0\xda\xe0S\xfa\xe4j\xa4?\x84)\xa7z\x81\x02\xe0\xfbS\x91\xaaq\xaf\xb5<\xb8\xd7\xf6\xa45\xd7Ay\x16<\xc6K\r\xb2\xea\xec\xb8\xa7\xf5\x9b\x1e\xfd\x19\xfe\x94\xa0\xddJ\xa6"\x93\xa9\xff\xb5/Oa\xe9+\x01\x10\x17\x02\xe0\\\nn\x1c\xa3\xb0\xcc6\xcb\xab\xb2\xe7S\xa2\x1du\xd0b\r&=LtA\xea\xfaQ%\xf2\x96:\x0f\xb8\xd0K\rZ~\x94\xf9c\xe7\xedN\xd0\x01p\x07Q\x93\xf7:\xd7\xb4\xfd{\x9f\xef\xb4\x00]\xff\xa2\xd5\xf7\xda\x00.\xf7P\x8d\x9b\xd9\xab\xfaRB\xcb@\xd2_\xa5#\xb3s\x8f\x9d)\xad\x17\x18c\xc7\x8f\x0b\xf4\x91r\x1e\x96?`\xff\xb4\x13\x8a.\x92w\x81\xd7\x02\xe0B\xe8\x7f\xe7\x8f\x1e\x17\x98\xe7\x9a\x82\xaeC\xd3\xff\x16\xff\x96\x16R\xd9`\xe8\xff\x8b\x7f\xc0\xba\xe3\xef\xb2\xcb\x8e2\xdb\x82\xfbR(\xbaIl\x01u\xc7\xdfe\x97\x1ce\xb7\x04 \x89\xb7@\xe8@\xe7\xda\x83\xb0\xa3\xc9$\x01\x17\xda\x86\xaf9\xc8\xb4\x9d$\x80"Y\xf7^X\x0b\x03\xedMw\xb7s\xbcd\xfa\xc9~\x0b\xdabd@\x00\x01\x13"\x03@\x04@\xfbS\xc5\x12\xa1=bE2Q\x02E7\xb35l\xe2\xe9P{\x8c\x08\xb7\xd4\xddBO.\xf6\xad\xdbk\xea#}\xa9\xbe\xc1\x93\xaeK\xf0\x06\xf6-\x9b:\xfb\x9d\xaf\xce\xfb\xbb\xf9\xdf\x85\x1f\x9ee\xcb\n|\xf1\xd0qy\xa3\xdfO~\xf0\x07_=[\xddn\xdeXm\xc7\x87-\xde\xbe\xf1\x85\x9fA\xf1{\r%\xee\xfc\x7f\x957\x8e\xbe-\xc5\xb8c\xee\x9cZ]\xd8(a\xe8\'\x07\x8b\xd1\x8d\xcfSn\x1f\xbe\x19?3\x02\xef\xb9r}\xa8\x99\xcfd\x18\x1a\x84A}\xab\xee>\xd3\xb8\x1a}\xc6\xa1u\xc0\xdfu\xe1a{\x03x/=v\xed\xfc\x18\x1f\xbc \t\xa0\xe1o\x08[\xba\xe8\x1dv\xe8.\xdf\x85\xf0\xb7\x0bB\x04.7v\xf5\xfb\xcf\xde\r\xeb\xb8D\xd6\x1b\xd7\xee\xe0m\xdb\xa0\x03W\xc2\x1b\xed\xbe\xcb8E|Xn\xde\xbc\xfb\xb7\xd9\x86\xeb\x98_\r\xfb\xaf\xb6\xdb\x8e\xe0\xbe\xdd\xe7^\x10B\xe47\x82\xf3 \xc2\xeb\xcd\xb6\xcbP\x89\xc7\xafa\xc1|XZ\xbby\xf7\x9f\x00\x1dv\x17\xdcx@\xbfz\xfbp\xe1\xbb\x85\xeb\xc2\xc0+\xae\xe0~\xfb\xed^z\xf6\x07B\x01>\xfd\xdb\xf7\x9a\x15\xe7D\xdbw[\xbfz\xf5\xe6\xb0\x04O\xbc\x06\x9a|Ai\xe70B\xcc/a\xbby\xdb\xce`i\xd8p]n\xe8\x85w\x08o\x03\x05\xe7\xe1d/\xb8\x0b\xc1j\xf3\xe2\x00\x04\x1b\xa1z\xfe\x1c\x0e\x88W\xc0\xfd\xf7\xf0`f\xfb8_\xbc\x17p<\xed\xec!\xc2\x1b\xaf\xba\xcb,\xb4\xf7\xda\x94\x1ai\xd3\x17R\xfa\x82\x18w]\xcd\x81\xdb5y\x9b\x96\xcff\xc1=\xe8\xb6ss\xd0\xefC\xcb\xf7?&j\x04)\xd3\xd0\xbb\x8c\x7f\xd7\x8b\xb2\xbb\xb1F\xeb\x99\xb3w\x92\xee\xdb8\xcb\xbfO\x99\x1f\x9b_g\x0b\xde/\xb5+5Y$\x82\xfd\xdc\x92\xbdGk\xe6\x86\x87\xc3\xfb\x8b=t&Qg\xe2\xfa\xdeV\x95\x9f\x1d\x1d\xfbR\xb3U\x07I"nW\xdb\x11YfYY\x8d\xbf\xb5-\xa8\xc4\xeb\x01\xd5\xc0\xda\xb7B\xad\xd0\xab\x81\xc5n\x89[\xac\x9f\xedB\x15\x13\x99\x95\xc8z`\x10\x03\xf6\xa4I\xae\x0f)\xd9w\xbfJ\x1d\xfc\xb0:3\xc7\xc7\xdf:\xed\xf2\r\xb7r#W\\\x04\xed\xa7\x9eM\\\xff\n\xde\xd4;\xa3\x82\xac\xdf\xfbR*\xd0\x98:I\x13r\xbe\xd8\x8a\xcb2\xca\xccm\xfd\xa8J\xa0w\xedJFj"I\xa9* iQ^\n\xa2\xbc\x17\\}\xf6Yq\xf14\xe3_j"tN\x89\xe5\xacp>\x16Y\x0bB\x12\xcd\xbd+\xeb\x08\r\xc6\xb3c\x91\xa5\xa4d-<\xe3\xc5\x8eI\n\xb0]q\xf7\xd9e\xc7\xdb\xfbQ\x13\xa2tO-~`|,\xb2\x16\x84%\x9bzW\xd6\x10\x1b\x8df\xc7#KH\xc8Zy\xc7\x8b\x1c\x92\x15`\xba\xe3\xef\xb2\xcb\x8f\xb7\xf6\xa2\x0fm\x84,\x1a\xef}\xa9]\x03L\xa7\xb2\x98+\'\xda\x91E\xd2A\xc0 \x84-<\xd3\xe1\\.\xb8\xfb\xec\xb2\xe3\x8c\xb6\xe0\x84\x116\xe8\x1d\x08\x1c\\.\xb8\xfb\xec\xb2\xe3\x8d.\x17\\}\xf6Yq\xc6\x97\x0b\xae>\xfb,\xb8\xe3K\x87\xedH\xa2\xe9! \x10B\x16\x9ei\xf0\xfd\xa9\xe3\xc8\xe2\xa0\xbd\xcbD\x01\xfbR\xc2\xa4\xd5\x0e\x00}\xa8CI\x03\xffjt\xf2\x83I\x00]q\xf7\xd9h e\xe7\x9btO8\xf0\x1c\xfbPu\xd7x\xf2\x16\nP\x02\r\xf6\xc2\x16\xbe\xd4\xa61\xc5M\xa6\x92\x00\xba\xe3\xef\xb2\xcb\x8e2\xdb\x82\x10D\xdb\xa0t s\xedO\x05\x8e\xb8\x03\xf6\xa7s \xc9\xea_P:\xe3\xce\xba\xeb\xed>&\x9b\x03\x80m\xa6\x9c\xfbP\x92DSI\x07I$\x037\xb1\xe5\xdd\xfa\xd6\x9c\xbc39\xa9\xdc[\x9b\xdf\x87&v\xb5e\xd7\xb3#wx\xf3\xdb\xc3n\x1e0\xf3\xc3\x8ff&\x99\xbf\xa3%\xd6\xc5\xbfe\xfe\\75\x93\xf7H\xb6\xe2\xdd\x84Y5d\xc6/\xdd\x1c\x1b\xdd\xaf\x8e\xcf\xd6\xf7\xed\xe7\x8b\x0e\xdd\xb7\xf8d\x86\x18a\xd0\xd5\xfb\xb7\xb1\xe2\xc3\xce\x18a\x86\x1b\xdb\x1d\xe7\xcb\x1b\x8e\xed\xfd\xcf\xc5\x9c\x9f\x9fj3\r\xd7\xef\x89\x9c.\xc2\xd5\xd6on\xdd\x07I$\x037\xb1\xe5\xdd\xfa\xd6\x9c\xbc39\xa9\xdc[\x9b\xdf\x87&v\xb5e\xd7\xb3#wx\xf3\xdb\xc3n\x1e0\xf3\xc3\x8ff&\x99\xbf\xa3%\xd6\xc5\xbfe\xfe\\75\x93\xf7H\xb6\xe2\xdd\x84Y5d\xc6/\xdd\x1c\x1b\xdd\xaf\x8e\xcf\xd6\xf7\xed\xe7\x8b\x0e\xdd\xb7\xf8d\x86\x18a\xd0\xd5\xfb\xb8wr\xd9\x92\x18a\x86\x1b\xf9omo}\xe6\xaf~n\xc2\xef?\xcf\xb5\x19\x86\xeb\xf7\xc4\xce\x17aj\xeb7\x9f\xbb\x05\xecyw~\xb5\xa7/\x0c\xcejw\x16\xe6\xf7\xe1\xc9\x9d\xadYu\xec\xc8\xdd\xde<\xf6\xf0\xdb\x87\x8c<\xf0\xe3\xd9\x89\xa6o\xe8\xc9u\xb1o\xd9\x7f\x97\r\xcdd\xfd\xd2-\xb8\xb7a\x16MY1\x8b\xf7G\x06\xf7k\xe3\xb3\xf5\xbd\xfby\xe2\xc3\xb7m\xfe\x19>\xd4\x8ac\x0e) \x0f\xda\x9a\xf5\xed\xbf\x16\xb88p\xc9}p\xba\xe3\xef\xb2\xcb\x8e2\xdb\x82\x10D\xdb\xa0t s\xedN\x9ePi"DV\xc1:SZ\x15f\x16\x18\xa7\xd2\xf4\xaf\xd2E\xc8zX\xfbQ\x04\x8b\xc1\xa4L\xf0\x05\xf1\x03\xedIh\x1a\'\x81\x98\x9d<;\xf7z\x86\x9a9]\xdc\xdb\xd2v\x85\xcd\x9f\xbe0\xb9-\xb4\x0c\xd5R\xe5K\x02\xa0b\xeb\x85\xfa\xc3\x8eK9\xe1\xc5\'E\xa8\xf7\x7fO\xac\xfb\xfdU\xa6\x9c\r\xbf\xc7 l{\x86\x1e\x96s\xfd\xfd\xbbax\xc3\xdc\xd3\xbb\x98\xb1\xe4\xe9\xcbm\x9c&E\xe6w\xebg)\xbdi\xdd\xb6\x17\xb7\xe6?Jj%\x0e;\xa2k\xd7\xcf\x16#\xdd\xbd\xfb\x9co\'dQ\xcb\x1c^\xfc\xbf\xe9\xee\xae\xfeQ\x80\x9cr\xef\xf3\x9f\xb1)\xba\x1d\xf9\xf5\n\xde\xafl\xbbU\x9e\x99\xe3\x86\xc6\xd3\xbf\x8f\xcf\xcf\xda\x88\x9d\x13\xa2yk\x8e\x0b\xb0\xd7\xf9\xcb\x1b\x8f\xdf\xc5\x15\x10\xf9\x8c\xfe\xbbX\xee\xa7V\x9aKi\xd0\xfe\xe8|`\xban\xfb\xb4GY\xdf\xf3\x949\x13\xfb.\xc4\xeb\xd9\xe8\x0b6o\xc3W\xa7\x9c3\x10\xb7\x9bf75#\xb6\x18\xc8\xed\xd9\xad\x1bcD\x95\xbf\xfbG\xb9\xa2\xc5\x82\xff~\x1e.\xfd\xa9\xd0\x83\xae);\xfb\xf1\x14\xb5\xc0/\xcb&\xb2\xfa\n\x1c\xc9~\xfd\xba\xb6\xe4\xf7\xbb\xaei\xb5\xc9\xceqz\x8a\x9cy\x1d\x93 sh;b\xe4\xceyqM\xde\xdb5x\xbd\xcf\rUI\x8e<\x02\xa2\xef\x8c\x7f\xb6\xc3\xcf\x8f[\xf3Z\x98\xcd\xa6\xb6\xc53\xbf\x9f\x8c\xf04; \xfbS}\x83\'R\xd9\x92\xfc\x17\xb3<\xde\x9d\'\xd5\xe1\xc0\xb7\xa3\xbc\xd7\xf8\x17\xa0\xb7\xe1\xa6~0\xd1\xfb\xcf\xcd\xdc\xdf\xbd\x1c\xf1l\xdea\xee{\xf1\x8b\\Y\xf6d\xda\xf6\xbeW\xfa\xad\xeb\xd5~\xac{\x84\x8dg\x8e\xae\xfb1\xe93\xd5\xec\x96\xebYj\xb0\xfb=\xed\x03\x99\xae\xde\xe7~\xfd\xb5s\xe7\x17\x1a\xa4\xf1\x189\xfd\xa9Zb\xea_PC\x0eZ\xe5\xf0\x0f\x10\xdf\xbd\x96\xa1\xf8\x8e-x\xf0\xf8\xd4B~\xd9\x9a\x9b\xb9z\xd6\x9d;Z\xab|)Z\x8b\xc7\xf4\xf7\x16y\xd3\x986p\xc7\xcb\xa6\x98\xf5\xe0#\x94\x94\xb7\xa6\x10<\x83\x0e&\xbe\xd4\xad1Vj\xa0\xe9$M\xca\xfbb+,\xcb+1\xb7\xf6\xa5i\x89\t\x801_\xc1\xd3\x9c\xf1~S\x08ao7\x9f\x01\xaf\x00\xcb\xd0-g\xf6\xe0\xfb\n\xf8i\xd9\xebog{\xe6\xe3\xb8\x1f\xa2\xf7\x9f\x06\xb5\x8c`\xea\xfd\xca\x9dx\xb3h\xa19?Fl\xe7{O\xad\xb5\xe7\xad\xfdZ\t\xd4\xdc$!\xd2\xd1\xd6\xbd\xde\xdf\xc8d\x1d.\xf3\xf5\\z\xad\xdfG\xaf\xc7\xe5\xef\xc8\xbf\x8fv\x85\x01\x8a\x1e\xd5\xdb\x96\x94\x8c\x8c\xed\xdbn\xda\xa5\xe9\xaf\xf3E\xde-\xdbH\x87\x9a\xf5\xf8\xfb\xf3\xfdFF\xb0\xed\xcf|\xcet\'*\xe5kw\xbe\xfe\xa9\xacY\x10\xf7o\x15`\xcf\xca\xdel\xf53\xe5\x93\x0f:\xcf\x16\xd9G\x1bG\xb6}\x19\xca\xce\xbd\xf7d\xf3\xb4\xfb)k\xde\xd3\xf1|D\xce\xfc\x82\xd7\xf6\xa5i\x89\'\xeaZ\xa0j\x84\x02\xc8\xe9g\xedJ\xfcH\x98\x8d$\x1d$\x89\xb9_lEe\x99ef6\xfe\xd4D\xa8I\xfa\x96\xa8\x13\xd4\x01\xa6W%p%\x0b\x83y\x1a=#\xceoxZ\xd1T\xde\xcd\x9e\xcc\xc5\xa2\x9e\x1c\xf7\x00\x1f\xed\x9fwm\xfd\xab\x8f[\x0f\xc7u\xea\xdb\xca\x8e\x03O\xbc\\\xad\xc9\xd6^\xa7@M\xa6\xed\x99\xf8`\xf5\x8fe[1]\xc7Z-\xae\xaf\xb5<O\xe1\x1e\x11\xe3\xc2 \xfbPv\xa4\xfa\xab-P\xd7\\R\x1f\xc5W\xa8:\x0b|i,]$\x8as\xd2]c\x98\xb0\x05\xd7\x1f}\x96\x82\xfb\xae\xb4\x18\x83\xf6\xa7\x8e\xd4\xd5\xe40h\xbf\x83\xd6\x9e\x9a\x05\xa3\x14\xdd\xf3\xd2\x06\xb5o\xbb\xdf8d\xf7\xa3\x15\r\x13\x16Oy\xafx\x9b7 [\x93\x17_z\x05\xfbN\x8e\x9cym\xe1G\x1c\xd8r*\xcd\xff\xb5"\x8b\xa4\x91\xc0 \x84-<\xd3\xe1]\x90\xae\x17\\}\xf6Yq\xc6[pB\x08\x9bt\x0e\x84\x0e\x7f\xc0\xae\x17\\}\xf6Yq\xc6\xbe\xd4\xa61\xc4\x83I\x00]q\xf7\xd9h e\xf08\xcbn\xba\xd3\xef\xb2\xca\xe1\x17\xda\x9d<\xa0\xd2D\x88\x93\x00]q\xf7\xd9h@\x13@w\xedH\xa2\xe9$V\x16X\x89B \xd1|\xfe*\xceq\xc9\x86\x83\x8d1CY\xaf\x9f\xc5T\x1crC]y\xc7\xe8\xb6^=R\x9ak\xe3H\xfe\xd4D\x89?R\xd5\x040\xc7\x81\x17k\xc1\x93W\x1e\x9d\xb7\xc3\x9a\xf6\xc4\xf7\xd9h]Cr[\xad\xe9\xbc\xd5\xab\xa16d\xf3Z9p\xe9\xabcy\x07~\x8cB\xdb\x8f.M\xbd\xda\xf1\xd7\x8e\xfc:\xab\'\x0e"\x0ez\xf9~\x8bp\xba~\xfb\xf1\xcfn\x1d\x8f\xc3\xf9w\xac}=\x85iY\x85\xefYf\xcb\x7f\x9c\xf7]\x9f\x7f\x8bj[\x8d|\xf6\xf9L\xf4d\xdb\xf9\xa3D}{P\x99v\xd2\xf3N7\x86\x9e\xb1\x87R\xd7E\x87^\xcaDXlym\xf97\x80\xb0\xf2\xe39<_\x97\x0f\xec\x9f@\x87AH\xb1\'Z\xd1\xff\xb7\xfet\x9d1B\xa5\xdb\x07T\x9f\xcf\xdfx?\x97\xbf\x9f\xa5?\x9b\xd3\xd8zMm?\xcf\xdfx?\x90\x88\x1f\xcf\xd2\x9f\xce#\x9ej\n\xa5\xe9\xec=%\xfe~\xfb\xc1\xfc\x84@\xfe\x7f@\x8bAH\xb1\'Z\xd1\xadI\xe35\x05\x82\xff\x01@\x8dAH\xb1\'Z\xd1\xad]\x03L\xa7\xb2\x9f\x88\xfey\x1a\xa9\x0f\xe1\x1f\xcf@\x8aAH\xb4\xa5I\'ZB\xa1?\x84-5\xa7\xd7@\x8aAH\xb4\xa5I\'Z\x93\xc8_\x83!\xecG@\x8aAH\xb4\xa5I\'Y\x06I\x7f\x86@\xe9*\xc82K'
+2026-02-01 16:54:49 | DEBUG   | hpack.table | Resizing header table to 4096 from 4096
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoding b"\x18\x82\x10\x01\x1f\x10\x92I|\xa5\x89\xd3M\x1fj\x12q\xd8\x82\xa6\x0bS*\xcf\x7f\x10\x82Al\x85\x10]\\.9\x1f\t\x86\xa8\xeb!'\xb0\xbf\x1f\x15\x96\xddm_J\x00*a,j\x08\x02q@=q\xb6\xae6\x051h\xdf\x10\x02hh\x82\n\xc1\x10\x8e=\x86\x98\xd5,9\x8bRV%\x16\xa1%\xb3\x02?0\x1f'\x03jfe\x1f)\x8a\xa4~V\x1c\xc5\x81\xe7\x1a\x00?\x10\x8f\xf2\xb0\xfa\x8e\x91\x99d\xd8:\x91)\xec\xa4\xb2\x7f\x90}A:&\x9cP\nWLpS\xb7\x86\x8f\xa1\x7f\x1f\x0b\x83\x9b\xd9\xab\x1f\x12\x96\xddm_J\x00*a,j\x08\x02q@=q\xb6\xae6\x051h\xdf\x1f\r\x84\x13\x81t\x1f\x1f,\x8b\x84\x84-i[\x05D<\x86\xaao\x1f(\xdcI\xfa\x96\xa8\x1a\x0b!nW\x9cl\x8e\x8d\xd1\xb4 F!\xbe\xe3`y\xf9$ %\x0f\xd3?O\xbc\xc8\x9fw\xedL\x1ek5\x85D\x1b\xad\xab\xe9@\x05L%\x8dA\x00N(\x07\xee\x00\x17\x00\x051h\xdf\xf6\xa6\x81\xf9Z\x19\x8b\x00^\x00>\xd4\xbezFj\xa0_\xa4\x8b\x90\xf4\xfd\xa9\xaci\x9e\x06?\x10\x8aAl\xee[\x16I\xa95S\x7f\x8f$\x95,A\x92r\xfd\xa9!PH4d\xdd\xbb\x10\x8aAl\xee[\x16I\xa95S\x7f\x8a,\x93\x17\xedI-\xb2\x012/\x10\x8aAl\xee[\x16I\xa95S\x7f\x8b=\x86\x98\xd5}\xa9%\xb6@\x16Z\x10\x892\x16\x1fQ\xd23,I*\x83\xdfe\xa5\x10\x8d%\x06-IXv\xa6r\xd4\x93\x11cW\x89\x0b\xe2]\xf5\xc2\xcb\x8b\xb6\xef\x10\x8aAl\xee[\x16I\xa95S\x7f\xb6\x1fX\xab\xfbRB\xa0\x90\x7f!u\xc7\xdfe\xc0<\xfb`r&_\x00\x9eq\xe7\x83\x10^}\xc1<\x16]f&\\}\x91D!\x00Q\x02 \xb6\xfcAo\xf9\xfb\x92\xdb \x0f"
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 8, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b':status', b'200'), total consumed 4 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 31, consumed 2 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 18, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b'content-type', b'text/html; charset=utf-8'), total consumed 21 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 5, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b'ser', b'217.166'), total consumed 10 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 24, consumed 2 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 6, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b'cache-control', b'no-store'), total consumed 9 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 36, consumed 2 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 22, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b'expires', b'Sun, 01 Feb 2026 08:54:50 GMT'), total consumed 25 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (<memory at 0x000001A5758665C0>, b'1-1'), total consumed 7 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 14, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b'origin-agent-cluster', <memory at 0x000001A575865FC0>), total consumed 19 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 54, consumed 2 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 3, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b'server', <memory at 0x000001A5758659C0>), total consumed 6 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 56, consumed 2 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b'strict-transport-security', b'max-age=86400'), total consumed 13 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 15, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 16, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b'x-akamai-transformed', b'9 27246 0 pmb=mRUM,2'), total consumed 34 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 26, consumed 2 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 3, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b'content-encoding', b'gzip'), total consumed 6 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 33, consumed 2 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 22, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b'date', b'Sun, 01 Feb 2026 08:54:50 GMT'), total consumed 25 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 28, consumed 2 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 4, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b'content-length', b'26170'), total consumed 7 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 59, consumed 2 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 11, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b'vary', b'Accept-Encoding'), total consumed 14 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 55, consumed 2 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 92, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b'set-cookie', b'token=41315f865c7a7a420b2a965089ddc0f1,3,983297; Expires=Sun, 01 Feb 2026 09:00:00 GMT; Max-Age=1800; Domain=.jd.com; Path=/'), total consumed 95 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 15, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b'server-timing', b'cdn-cache; desc=MISS'), total consumed 28 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b'server-timing', b'edge; dur=232'), total consumed 23 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 11, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b'server-timing', b'origin; dur=134'), total consumed 24 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 9, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 3, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b'is-akamai-cdn', b'True'), total consumed 15 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 13, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 9, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b'client-authentic-ip', b'192.9.136.57'), total consumed 25 bytes, indexed False
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded 54, consumed 1 bytes
+2026-02-01 16:54:50 | DEBUG   | hpack.hpack | Decoded (b'server-timing', b'ak_p; desc="1769936089506_390286881_1896281373_36932_2202_0_159_15";dur=1'), total consumed 67 bytes, indexed False
+2026-02-01 16:55:00 | ERROR   | src.jd_api | 请求超时 https://p.3.cn/prices/mgets
+2026-02-01 16:55:14 | ERROR   | src.jd_api | 请求超时 https://c0.3.cn/stocks
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Adding (b':method', b'GET') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 2 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Adding (b':authority', b'item.jd.com') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 1 with 6 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 8 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Adding (b':scheme', b'https') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 7 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Adding (b':path', b'/100268293328.html') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 4 with 6 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 13 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Adding (b'user-agent', b'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 58 with 6 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 85 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Adding (b'accept', b'application/json, text/javascript, */*; q=0.01') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 19 with 6 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 34 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Adding (b'accept-language', b'zh-CN,zh;q=0.9,en;q=0.8') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 17 with 6 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 19 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Adding (b'accept-encoding', b'gzip, deflate, br') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 16 with 6 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 13 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Adding (b'referer', b'https://www.jd.com/') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 51 with 6 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 15 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Adding (b'cookie', b'__jdv=76161171|www.google.com|-|referral|-|1769933663562; __jdu=17699336635622125707106; areaId=12; ipLoc-djd=12-978-0-0; PCSYCityID=CN_320000_320400_0; wlfstk_smdl=t2gzi4uh2jn1va0suygk1cx7qp7upk2i; TrackID=1CGQQkzh4XvSvxTFsXxfJAtxVMo2xlzjzzE1PYOT75uWFuHFJBkzH13y1wCFmev9bXn5HpV5_SaavtGN7Q2AAj26aGyiiYO56ovFdXK0BzfI; thor=E4A2194D6947E4964A761D782F8E5EC8BBDEE9C20241F5F15B7077B0BDA915A420A65BCDC9C1CBF24FCDBE57B004D11D5933F2D2FBCC97D3AB6F91DB95567ED5C782116AC1830F785534A268CFED2F4BC9890077A96820DCD5AFBF8C2E2B7E9D94C8CE710299BDC42C7255B5DCCC4E1298044921486EA3A8FBC7C6E47AEB5B22BF1C0EC9A31960C14C920021B18DFE722D09D9EE3D3F9C17E87CF1F1B9733348; light_key=AASBKE7rOxgWQziEhC_QY6yaCAWZLW3n0AtNjeSioZ8eQpB_b76KKvdBRrVfTNxd9gPq6ev_; pinId=DBIf8lqDiAl91ZGLpltf2LV9-x-f3wj7; pin=jd_5f952e33ff3b5; unick=o%E5%B1%B1%E6%B2%B3o; ceshi3.com=201; _tp=xtQBvjl7Xr1MLbVzYpux0RBIsOkEcqNYIOYXe5Rs7MU%3D; _pst=jd_5f952e33ff3b5; cn=7; mail_times=4%2C1%2C1769933692464; shshshfpa=91331422-58f9-205b-5ad4-d314868ebdde-1769933695; shshshfpx=91331422-58f9-205b-5ad4-d314868ebdde-1769933695; source=PC; platform=pc; __jda=211148491.17699336635622125707106.1769933664.1769933664.1769933664.1; __jdc=211148491; wxa_level=1; retina=0; cid=9; jxsid=17699341038857286806; appCode=ms0ca95114; mba_muid=17699336635622125707106; webp=1; visitkey=7687779492450605446; cd_eid=jdd03CHJSZ4NJUK6O7GS5TFIL4OJPQI5BVYRURFVAYFHQG43DMIB52TQDWUS4IZN2RGSF2IOIH2ZMU5SPVQZ5TRYGFRRDUIAAAAM4DBCHGFYAAAAACQ7YWH67RZLV3IX; 3AB9D23F7A4B3CSS=jdd03CHJSZ4NJUK6O7GS5TFIL4OJPQI5BVYRURFVAYFHQG43DMIB52TQDWUS4IZN2RGSF2IOIH2ZMU5SPVQZ5TRYGFRRDUIAAAAM4DBFSWQIAAAAADJCR5TC4CXSF7YX; 3AB9D23F7A4B3C9B=CHJSZ4NJUK6O7GS5TFIL4OJPQI5BVYRURFVAYFHQG43DMIB52TQDWUS4IZN2RGSF2IOIH2ZMU5SPVQZ5TRYGFRRDUI; _gia_d=1; PPRD_P=UUID.17699336635622125707106; jxsid_s_u=https%3A//my.m.jd.com/; sc_width=1920; flash=3_7oATSyAmlWBS58dqA6QZwF6fulainm6n-0n0GkF9p1HdrYFGdj-lzDNyLTynNmE59VI1r8UFjrYZZBreVAvih7KebIjWRrUgsC3TP3JiyNSRA8TKojmncl67MgCDo_GoBCZLa8tQ_bfb_zx9y8k7XlEcVJTxLqcmB1TLO2uk8QBnry3VFr5tTV**; shshshfpb=BApXWH69DG_lAxboyqr7O7-gdumM9SAwEBivSMbpo9xJ1ItZfQtPQy0-5iXipNYAgceC53b6OsqFbc7Bgua5asdp9Zlzg_GEDvUwB; jcap_dvzw_fp=2XrgrDse1Kt9DuORIzSkKgPdYh2y_mHI7dI1KMo52W3LfGgvurOwCYFnndHbE2lBwHZuAYVkDgutbiNp52g7XX3UiAQ=; TrackerID=CK85NNoOw615MvgDUej2TFmhVAlZYxBKZj6wugxAvoDb2P_LQIR8PWDk-yypyr8Ud4LbnvQHNi8pQfB4JnroQzR06KBCYDDunYY_Vndwb0Y; pt_key=AAJpfw0wADCJnawb_PHFwOccZrKmBJkptNR4nTAt-lCoy8V3YmK1rUHWjNbPEc6meeCg20x0FG4; pt_pin=jd_5f952e33ff3b5; pt_st=1_DEjYh_XmA1A5Kxw1pEaej14Lz6aq2D1mQyRq7vKVS0Z2zLEP-ii1OZJtPGKMltIZaiLo8NyRpLp9OMckiUdcot4o-CvuXAdam7YypbOuTlyX9fvWeX8qAs1_AqpuJmtac3RRuRnfjPXMBV5um2aKCDbvYZsI4FRLDi6jcWpf4Szvymp2Is8qwnELWuY3ki9edFYpo_Rfab4ouhMLe3PTBdxRoQm4zRoV92cL9d2P; pt_token=4ls0rbm3; pwdt_id=jd_5f952e33ff3b5; sfstoken=tk01mf6f61e16a8sMysxKzF4MngziLrKelmUYS00+3zBuZnVkroVSCp5JsUatzGWuIkfkos1iNBrLUEyHQnQGBHpsupn; whwswswws=; autoOpenApp_downCloseDate_jd_homePage=1769934197741_1; wqmnx1=MDEyNjM2MGgvLm04OTBvL1dzMGl4cGIzKCwgKW0uIGkzM2ZmMjVWRUlVKFI%3D; __jdb=211148491.31.17699336635622125707106|1.1769933664; mba_sid=1769934103906357749933.12; jxsid_s_t=1769934202407; __jd_ref_cls=MDownLoadFloat_ApiDownloadAppLayerConfigData; sdtoken=AAbEsBpEIOVjqTAKCQtvQu17s5duP8gxnOjcQIxpsWUjOQ5IaDlG2RHJIRv4wkVTFOpcUV21LpWZ2S2jZzwYRFQ9AXBkbjz1-f3A8yJgJDYhB7hTwun-VpYRxthlIRXMMbkqltfRm8465Fmkb1O-B2FPQm2eAr8-TIT0eAWVhcwDfFZd') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 32 with 6 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 2611 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Adding (b'sec-ch-ua', b'"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 7 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 55 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Adding (b'sec-ch-ua-mobile', b'?0') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 11 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 2 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Adding (b'sec-ch-ua-platform', b'"Windows"') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 13 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 8 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.table | Evicting b':authority': b'item.jd.com' from the header table
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Adding (b'sec-fetch-dest', b'empty') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 10 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 4 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.table | Evicting b':path': b'/100268293328.html' from the header table
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Adding (b'sec-fetch-mode', b'cors') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 10 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 3 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.table | Evicting b'user-agent': b'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' from the header table
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Adding (b'sec-fetch-site', b'same-site') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 10 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoding 6 with 7 bits
+2026-02-01 16:55:21 | DEBUG   | hpack.hpack | Encoded header block to b'\x82A\x882KJ\xfd$\\\x87\xa7\x87D\x8d` \x00\x9cxO\xb2\xc8\x9e^t\xd3Gz\xd5\xd0\x7ff\xa2\x81\xb0\xda\xe0S\xfa\xe4j\xa4?\x84)\xa7z\x81\x02\xe0\xfbS\x91\xaaq\xaf\xb5<\xb8\xd7\xf6\xa45\xd7Ay\x16<\xc6K\r\xb2\xea\xec\xb8\xa7\xf5\x9b\x1e\xfd\x19\xfe\x94\xa0\xddJ\xa6"\x93\xa9\xff\xb5/Oa\xe9+\x01\x10\x17\x02\xe0\\\nn\x1c\xa3\xb0\xcc6\xcb\xab\xb2\xe7S\xa2\x1du\xd0b\r&=LtA\xea\xfaQ%\xf2\x96:\x0f\xb8\xd0K\rZ~\x94\xf9c\xe7\xedN\xd0\x01p\x07Q\x93\xf7:\xd7\xb4\xfd{\x9f\xef\xb4\x00]\xff\xa2\xd5\xf7\xda\x00.\xf7P\x8d\x9b\xd9\xab\xfaRB\xcb@\xd2_\xa5#\xb3s\x8f\x9d)\xad\x17\x18c\xc7\x8f\x0b\xf4\x91r\x1e\x96?`\xff\xb4\x13\x8a.\x92w\x81\xd7\x02\xe0B\xe8\x7f\xe7\x8f\x1e\x17\x98\xe7\x9a\x82\xaeC\xd3\xff\x16\xff\x96\x16R\xd9`\xe8\xff\x8b\x7f\xc0\xba\xe3\xef\xb2\xcb\x8e2\xdb\x82\xfbR(\xbaIl\x01u\xc7\xdfe\x97\x1ce\xb7\x04 \x89\xb7@\xe8@\xe7\xda\x83\xb0\xa3\xc9$\x01\x17\xda\x86\xaf9\xc8\xb4\x9d$\x80"Y\xf7^X\x0b\x03\xedMw\xb7s\xbcd\xfa\xc9~\x0b\xdabd@\x00\x01\x13"\x03@\x04@\xfbS\xc5\x12\xa1=bE2Q\x02E7\xb35l\xe2\xe9P{\x8c\x08\xb7\xd4\xddBO.\xf6\xad\xdbk\xea#}\xa9\xbe\xc1\x93\xaeK\xf0\x06\xf6-\x9b:\xfb\x9d\xaf\xce\xfb\xbb\xf9\xdf\x85\x1f\x9ee\xcb\n|\xf1\xd0qy\xa3\xdfO~\xf0\x07_=[\xddn\xdeXm\xc7\x87-\xde\xbe\xf1\x85\x9fA\xf1{\r%\xee\xfc\x7f\x957\x8e\xbe-\xc5\xb8c\xee\x9cZ]\xd8(a\xe8\'\x07\x8b\xd1\x8d\xcfSn\x1f\xbe\x19?3\x02\xef\xb9r}\xa8\x99\xcfd\x18\x1a\x84A}\xab\xee>\xd3\xb8\x1a}\xc6\xa1u\xc0\xdfu\xe1a{\x03x/=v\xed\xfc\x18\x1f\xbc \t\xa0\xe1o\x08[\xba\xe8\x1dv\xe8.\xdf\x85\xf0\xb7\x0bB\x04.7v\xf5\xfb\xcf\xde\r\xeb\xb8D\xd6\x1b\xd7\xee\xe0m\xdb\xa0\x03W\xc2\x1b\xed\xbe\xcb8E|Xn\xde\xbc\xfb\xb7\xd9\x86\xeb\x98_\r\xfb\xaf\xb6\xdb\x8e\xe0\xbe\xdd\xe7^\x10B\xe47\x82\xf3 \xc2\xeb\xcd\xb6\xcbP\x89\xc7\xafa\xc1|XZ\xbby\xf7\x9f\x00\x1dv\x17\xdcx@\xbfz\xfbp\xe1\xbb\x85\xeb\xc2\xc0+\xae\xe0~\xfb\xed^z\xf6\x07B\x01>\xfd\xdb\xf7\x9a\x15\xe7D\xdbw[\xbfz\xf5\xe6\xb0\x04O\xbc\x06\x9a|Ai\xe70B\xcc/a\xbby\xdb\xce`i\xd8p]n\xe8\x85w\x08o\x03\x05\xe7\xe1d/\xb8\x0b\xc1j\xf3\xe2\x00\x04\x1b\xa1z\xfe\x1c\x0e\x88W\xc0\xfd\xf7\xf0`f\xfb8_\xbc\x17p<\xed\xec!\xc2\x1b\xaf\xba\xcb,\xb4\xf7\xda\x94\x1ai\xd3\x17R\xfa\x82\x18w]\xcd\x81\xdb5y\x9b\x96\xcff\xc1=\xe8\xb6ss\xd0\xefC\xcb\xf7?&j\x04)\xd3\xd0\xbb\x8c\x7f\xd7\x8b\xb2\xbb\xb1F\xeb\x99\xb3w\x92\xee\xdb8\xcb\xbfO\x99\x1f\x9b_g\x0b\xde/\xb5+5Y$\x82\xfd\xdc\x92\xbdGk\xe6\x86\x87\xc3\xfb\x8b=t&Qg\xe2\xfa\xdeV\x95\x9f\x1d\x1d\xfbR\xb3U\x07I"nW\xdb\x11YfYY\x8d\xbf\xb5-\xa8\xc4\xeb\x01\xd5\xc0\xda\xb7B\xad\xd0\xab\x81\xc5n\x89[\xac\x9f\xedB\x15\x13\x99\x95\xc8z`\x10\x03\xf6\xa4I\xae\x0f)\xd9w\xbfJ\x1d\xfc\xb0:3\xc7\xc7\xdf:\xed\xf2\r\xb7r#W\\\x04\xed\xa7\x9eM\\\xff\n\xde\xd4;\xa3\x82\xac\xdf\xfbR*\xd0\x98:I\x13r\xbe\xd8\x8a\xcb2\xca\xccm\xfd\xa8J\xa0w\xedJFj"I\xa9* iQ^\n\xa2\xbc\x17\\}\xf6Yq\xf14\xe3_j"tN\x89\xe5\xacp>\x16Y\x0bB\x12\xcd\xbd+\xeb\x08\r\xc6\xb3c\x91\xa5\xa4d-<\xe3\xc5\x8eI\n\xb0]q\xf7\xd9e\xc7\xdb\xfbQ\x13\xa2tO-~`|,\xb2\x16\x84%\x9bzW\xd6\x10\x1b\x8df\xc7#KH\xc8Zy\xc7\x8b\x1c\x92\x15`\xba\xe3\xef\xb2\xcb\x8f\xb7\xf6\xa2\x0fm\x84,\x1a\xef}\xa9]\x03L\xa7\xb2\x98+\'\xda\x91E\xd2A\xc0 \x84-<\xd3\xe1\\.\xb8\xfb\xec\xb2\xe3\x8c\xb6\xe0\x84\x116\xe8\x1d\x08\x1c\\.\xb8\xfb\xec\xb2\xe3\x8d.\x17\\}\xf6Yq\xc6\x97\x0b\xae>\xfb,\xb8\xe3K\x87\xedH\xa2\xe9! \x10B\x16\x9ei\xf0\xfd\xa9\xe3\xc8\xe2\xa0\xbd\xcbD\x01\xfbR\xc2\xa4\xd5\x0e\x00}\xa8CI\x03\xffjt\xf2\x83I\x00]q\xf7\xd9h e\xe7\x9btO8\xf0\x1c\xfbPu\xd7x\xf2\x16\nP\x02\r\xf6\xc2\x16\xbe\xd4\xa61\xc5M\xa6\x92\x00\xba\xe3\xef\xb2\xcb\x8e2\xdb\x82\x10D\xdb\xa0t s\xedO\x05\x8e\xb8\x03\xf6\xa7s \xc9\xea_P:\xe3\xce\xba\xeb\xed>&\x9b\x03\x80m\xa6\x9c\xfbP\x92DSI\x07I$\x037\xb1\xe5\xdd\xfa\xd6\x9c\xbc39\xa9\xdc[\x9b\xdf\x87&v\xb5e\xd7\xb3#wx\xf3\xdb\xc3n\x1e0\xf3\xc3\x8ff&\x99\xbf\xa3%\xd6\xc5\xbfe\xfe\\75\x93\xf7H\xb6\xe2\xdd\x84Y5d\xc6/\xdd\x1c\x1b\xdd\xaf\x8e\xcf\xd6\xf7\xed\xe7\x8b\x0e\xdd\xb7\xf8d\x86\x18a\xd0\xd5\xfb\xb7\xb1\xe2\xc3\xce\x18a\x86\x1b\xdb\x1d\xe7\xcb\x1b\x8e\xed\xfd\xcf\xc5\x9c\x9f\x9fj3\r\xd7\xef\x89\x9c.\xc2\xd5\xd6on\xdd\x07I$\x037\xb1\xe5\xdd\xfa\xd6\x9c\xbc39\xa9\xdc[\x9b\xdf\x87&v\xb5e\xd7\xb3#wx\xf3\xdb\xc3n\x1e0\xf3\xc3\x8ff&\x99\xbf\xa3%\xd6\xc5\xbfe\xfe\\75\x93\xf7H\xb6\xe2\xdd\x84Y5d\xc6/\xdd\x1c\x1b\xdd\xaf\x8e\xcf\xd6\xf7\xed\xe7\x8b\x0e\xdd\xb7\xf8d\x86\x18a\xd0\xd5\xfb\xb8wr\xd9\x92\x18a\x86\x1b\xf9omo}\xe6\xaf~n\xc2\xef?\xcf\xb5\x19\x86\xeb\xf7\xc4\xce\x17aj\xeb7\x9f\xbb\x05\xecyw~\xb5\xa7/\x0c\xcejw\x16\xe6\xf7\xe1\xc9\x9d\xadYu\xec\xc8\xdd\xde<\xf6\xf0\xdb\x87\x8c<\xf0\xe3\xd9\x89\xa6o\xe8\xc9u\xb1o\xd9\x7f\x97\r\xcdd\xfd\xd2-\xb8\xb7a\x16MY1\x8b\xf7G\x06\xf7k\xe3\xb3\xf5\xbd\xfby\xe2\xc3\xb7m\xfe\x19>\xd4\x8ac\x0e) \x0f\xda\x9a\xf5\xed\xbf\x16\xb88p\xc9}p\xba\xe3\xef\xb2\xcb\x8e2\xdb\x82\x10D\xdb\xa0t s\xedN\x9ePi"DV\xc1:SZ\x15f\x16\x18\xa7\xd2\xf4\xaf\xd2E\xc8zX\xfbQ\x04\x8b\xc1\xa4L\xf0\x05\xf1\x03\xedIh\x1a\'\x81\x98\x9d<;\xf7z\x86\x9a9]\xdc\xdb\xd2v\x85\xcd\x9f\xbe0\xb9-\xb4\x0c\xd5R\xe5K\x02\xa0b\xeb\x85\xfa\xc3\x8eK9\xe1\xc5\'E\xa8\xf7\x7fO\xac\xfb\xfdU\xa6\x9c\r\xbf\xc7 l{\x86\x1e\x96s\xfd\xfd\xbbax\xc3\xdc\xd3\xbb\x98\xb1\xe4\xe9\xcbm\x9c&E\xe6w\xebg)\xbdi\xdd\xb6\x17\xb7\xe6?Jj%\x0e;\xa2k\xd7\xcf\x16#\xdd\xbd\xfb\x9co\'dQ\xcb\x1c^\xfc\xbf\xe9\xee\xae\xfeQ\x80\x9cr\xef\xf3\x9f\xb1)\xba\x1d\xf9\xf5\n\xde\xafl\xbbU\x9e\x99\xe3\x86\xc6\xd3\xbf\x8f\xcf\xcf\xda\x88\x9d\x13\xa2yk\x8e\x0b\xb0\xd7\xf9\xcb\x1b\x8f\xdf\xc5\x15\x10\xf9\x8c\xfe\xbbX\xee\xa7V\x9aKi\xd0\xfe\xe8|`\xban\xfb\xb4GY\xdf\xf3\x949\x13\xfb.\xc4\xeb\xd9\xe8\x0b6o\xc3W\xa7\x9c3\x10\xb7\x9bf75#\xb6\x18\xc8\xed\xd9\xad\x1bcD\x95\xbf\xfbG\xb9\xa2\xc5\x82\xff~\x1e.\xfd\xa9\xd0\x83\xae);\xfb\xf1\x14\xb5\xc0/\xcb&\xb2\xfa\n\x1c\xc9~\xfd\xba\xb6\xe4\xf7\xbb\xaei\xb5\xc9\xceqz\x8a\x9cy\x1d\x93 sh;b\xe4\xceyqM\xde\xdb5x\xbd\xcf\rUI\x8e<\x02\xa2\xef\x8c\x7f\xb6\xc3\xcf\x8f[\xf3Z\x98\xcd\xa6\xb6\xc53\xbf\x9f\x8c\xf04; \xfbS}\x83\'R\xd9\x92\xfc\x17\xb3<\xde\x9d\'\xd5\xe1\xc0\xb7\xa3\xbc\xd7\xf8\x17\xa0\xb7\xe1\xa6~0\xd1\xfb\xcf\xcd\xdc\xdf\xbd\x1c\xf1l\xdea\xee{\xf1\x8b\\Y\xf6d\xda\xf6\xbeW\xfa\xad\xeb\xd5~\xac{\x84\x8dg\x8e\xae\xfb1\xe93\xd5\xec\x96\xebYj\xb0\xfb=\xed\x03\x99\xae\xde\xe7~\xfd\xb5s\xe7\x17\x1a\xa4\xf1\x189\xfd\xa9Zb\xea_PC\x0eZ\xe5\xf0\x0f\x10\xdf\xbd\x96\xa1\xf8\x8e-x\xf0\xf8\xd4B~\xd9\x9a\x9b\xb9z\xd6\x9d;Z\xab|)Z\x8b\xc7\xf4\xf7\x16y\xd3\x986p\xc7\xcb\xa6\x98\xf5\xe0#\x94\x94\xb7\xa6\x10<\x83\x0e&\xbe\xd4\xad1Vj\xa0\xe9$M\xca\xfbb+,\xcb+1\xb7\xf6\xa5i\x89\t\x801_\xc1\xd3\x9c\xf1~S\x08ao7\x9f\x01\xaf\x00\xcb\xd0-g\xf6\xe0\xfb\n\xf8i\xd9\xebog{\xe6\xe3\xb8\x1f\xa2\xf7\x9f\x06\xb5\x8c`\xea\xfd\xca\x9dx\xb3h\xa19?Fl\xe7{O\xad\xb5\xe7\xad\xfdZ\t\xd4\xdc$!\xd2\xd1\xd6\xbd\xde\xdf\xc8d\x1d.\xf3\xf5\\z\xad\xdfG\xaf\xc7\xe5\xef\xc8\xbf\x8fv\x85\x01\x8a\x1e\xd5\xdb\x96\x94\x8c\x8c\xed\xdbn\xda\xa5\xe9\xaf\xf3E\xde-\xdbH\x87\x9a\xf5\xf8\xfb\xf3\xfdFF\xb0\xed\xcf|\xcet\'*\xe5kw\xbe\xfe\xa9\xacY\x10\xf7o\x15`\xcf\xca\xdel\xf53\xe5\x93\x0f:\xcf\x16\xd9G\x1bG\xb6}\x19\xca\xce\xbd\xf7d\xf3\xb4\xfb)k\xde\xd3\xf1|D\xce\xfc\x82\xd7\xf6\xa5i\x89\'\xeaZ\xa0j\x84\x02\xc8\xe9g\xedJ\xfcH\x98\x8d$\x1d$\x89\xb9_lEe\x99ef6\xfe\xd4D\xa8I\xfa\x96\xa8\x13\xd4\x01\xa6W%p%\x0b\x83y\x1a=#\xceoxZ\xd1T\xde\xcd\x9e\xcc\xc5\xa2\x9e\x1c\xf7\x00\x1f\xed\x9fwm\xfd\xab\x8f[\x0f\xc7u\xea\xdb\xca\x8e\x03O\xbc\\\xad\xc9\xd6^\xa7@M\xa6\xed\x99\xf8`\xf5\x8fe[1]\xc7Z-\xae\xaf\xb5<O\xe1\x1e\x11\xe3\xc2 \xfbPv\xa4\xfa\xab-P\xd7\\R\x1f\xc5W\xa8:\x0b|i,]$\x8as\xd2]c\x98\xb0\x05\xd7\x1f}\x96\x82\xfb\xae\xb4\x18\x83\xf6\xa7\x8e\xd4\xd5\xe40h\xbf\x83\xd6\x9e\x9a\x05\xa3\x14\xdd\xf3\xd2\x06\xb5o\xbb\xdf8d\xf7\xa3\x15\r\x13\x16Oy\xafx\x9b7 [\x93\x17_z\x05\xfbN\x8e\x9cym\xe1G\x1c\xd8r*\xcd\xff\xb5"\x8b\xa4\x91\xc0 \x84-<\xd3\xe1]\x90\xae\x17\\}\xf6Yq\xc6[pB\x08\x9bt\x0e\x84\x0e\x7f\xc0\xae\x17\\}\xf6Yq\xc6\xbe\xd4\xa61\xc4\x83I\x00]q\xf7\xd9h e\xf08\xcbn\xba\xd3\xef\xb2\xca\xe1\x17\xda\x9d<\xa0\xd2D\x88\x93\x00]q\xf7\xd9h@\x13@w\xedH\xa2\xe9$V\x16X\x89B \xd1|\xfe*\xceq\xc9\x86\x83\x8d1CY\xaf\x9f\xc5T\x1crC]y\xc7\xe8\xb6^=R\x9ak\xe3H\xfe\xd4D\x89?R\xd5\x040\xc7\x81\x17k\xc1\x93W\x1e\x9d\xb7\xc3\x9a\xf6\xc4\xf7\xd9h]Cr[\xad\xe9\xbc\xd5\xab\xa16d\xf3Z9p\xe9\xabcy\x07~\x8cB\xdb\x8f.M\xbd\xda\xf1\xd7\x8e\xfc:\xab\'\x0e"\x0ez\xf9~\x8bp\xba~\xfb\xf1\xcfn\x1d\x8f\xc3\xf9w\xac}=\x85iY\x85\xefYf\xcb\x7f\x9c\xf7]\x9f\x7f\x8bj[\x8d|\xf6\xf9L\xf4d\xdb\xf9\xa3D}{P\x99v\xd2\xf3N7\x86\x9e\xb1\x87R\xd7E\x87^\xcaDXlym\xf97\x80\xb0\xf2\xe39<_\x97\x0f\xec\x9f@\x87AH\xb1\'Z\xd1\xff\xb7\xfet\x9d1B\xa5\xdb\x07T\x9f\xcf\xdfx?\x97\xbf\x9f\xa5?\x9b\xd3\xd8zMm?\xcf\xdfx?\x90\x88\x1f\xcf\xd2\x9f\xce#\x9ej\n\xa5\xe9\xec=%\xfe~\xfb\xc1\xfc\x84@\xfe\x7f@\x8bAH\xb1\'Z\xd1\xadI\xe35\x05\x82\xff\x01@\x8dAH\xb1\'Z\xd1\xad]\x03L\xa7\xb2\x9f\x88\xfey\x1a\xa9\x0f\xe1\x1f\xcf@\x8aAH\xb4\xa5I\'ZB\xa1?\x84-5\xa7\xd7@\x8aAH\xb4\xa5I\'Z\x93\xc8_\x83!\xecG@\x8aAH\xb4\xa5I\'Y\x06I\x7f\x86@\xe9*\xc82K'
+2026-02-01 16:55:21 | DEBUG   | hpack.table | Resizing header table to 4096 from 4096
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoding b"\x18\x82\x10\x01\x1f\x10\x92I|\xa5\x89\xd3M\x1fj\x12q\xd8\x82\xa6\x0bS*\xcf\x7f\x10\x82Al\x85\x0b\xae\xae\x17\x83\x1f\t\x86\xa8\xeb!'\xb0\xbf\x1f\x15\x96\xddm_J\x00*a,j\x08\x02q@=q\xb6\xee\t\xb51h\xdf\x10\x02hh\x82\n\xc1\x10\x8e=\x86\x98\xd5,9\x8bRV%\x16\xa1%\xb3\x02?0\x1f'\x03jfe\x1f)\x8a\xa4~V\x1c\xc5\x81\xe7\x1a\x00?\x10\x8f\xf2\xb0\xfa\x8e\x91\x99d\xd8:\x91)\xec\xa4\xb2\x7f\x90}A:&\x9eP\nWLpS\xb7\x86\x8f\xa1\x7f\x1f\x0b\x83\x9b\xd9\xab\x1f\x12\x96\xddm_J\x00*a,j\x08\x02q@=q\xb6\xee\x08Jb\xd1\xbf\x1f\r\x84\x13\x81p_\x1f,\x8b\x84\x84-i[\x05D<\x86\xaao\x1f(\xdcI\xfa\x96\xa8\x00\x19[rR\x8c\xae\xb7\x1bM\xb8G\x1atn? e\x8d\xe9di\xa1}3\xf4\xfb\xcc\x89\xf7~\xd4\xc1\xe6\xb3XTA\xba\xda\xbe\x94\x00T\xc2X\xd4\x10\x04\xe2\x80~\xe0\x01p\x00S\x16\x8d\xffjh\x1f\x95\xa1\x98\xb0\x05\xe0\x03\xedK\xe7\xa4f\xaa\x05\xfaH\xb9\x0fO\xda\x9a\xc6\x99\xe0c\x10\x8aAl\xee[\x16I\xa95S\x7f\x8f$\x95,A\x92r\xfd\xa9!PH4d\xdd\xbb\x10\x8aAl\xee[\x16I\xa95S\x7f\x8a,\x93\x17\xedI-\xb2\x014\x1f\x10\x8aAl\xee[\x16I\xa95S\x7f\x8b=\x86\x98\xd5}\xa9%\xb6@\x117\x10\x892\x16\x1fQ\xd23,I*\x83\xdfe\xa5\x10\x8d%\x06-IXv\xa6r\xd4\x93\x11cW\x89\x0b\xe2]\xf5\xc2\xcb\x8b\xb6\xef\x10\x8aAl\xee[\x16I\xa95S\x7f\xb6\x1fX\xab\xfbRB\xa0\x90\x7f!u\xc7\xdfe\xc0\x88\x0f\xbc\x18\x99|\x02y\xc7\x9e~!2\xe8D\x06\x9ftQ2\xeb\xef\x82 \xbc&\xa2\x04Au\x98\x82\xdf\xf3\xf7%\xb6@\x1f"
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 8, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b':status', b'200'), total consumed 4 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 31, consumed 2 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 18, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b'content-type', b'text/html; charset=utf-8'), total consumed 21 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 5, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b'ser', b'177.181'), total consumed 10 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 24, consumed 2 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 6, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b'cache-control', b'no-store'), total consumed 9 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 36, consumed 2 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 22, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b'expires', b'Sun, 01 Feb 2026 08:55:25 GMT'), total consumed 25 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (<memory at 0x000001A575866D40>, b'1-1'), total consumed 7 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 14, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b'origin-agent-cluster', <memory at 0x000001A575866BC0>), total consumed 19 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 54, consumed 2 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 3, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b'server', <memory at 0x000001A575866EC0>), total consumed 6 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 56, consumed 2 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b'strict-transport-security', b'max-age=86400'), total consumed 13 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 15, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 16, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b'x-akamai-transformed', b'9 27248 0 pmb=mRUM,2'), total consumed 34 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 26, consumed 2 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 3, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b'content-encoding', b'gzip'), total consumed 6 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 33, consumed 2 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 22, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b'date', b'Sun, 01 Feb 2026 08:55:22 GMT'), total consumed 25 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 28, consumed 2 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 4, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b'content-length', b'26162'), total consumed 7 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 59, consumed 2 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 11, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b'vary', b'Accept-Encoding'), total consumed 14 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 55, consumed 2 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 92, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b'set-cookie', b'token=01f56feae75b456c647a69d1fb8fd442,3,983297; Expires=Sun, 01 Feb 2026 09:00:00 GMT; Max-Age=1800; Domain=.jd.com; Path=/'), total consumed 95 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 15, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b'server-timing', b'cdn-cache; desc=MISS'), total consumed 28 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b'server-timing', b'edge; dur=241'), total consumed 23 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 11, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b'server-timing', b'origin; dur=125'), total consumed 24 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 9, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 3, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b'is-akamai-cdn', b'True'), total consumed 15 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 13, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 9, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b'client-authentic-ip', b'192.9.136.57'), total consumed 25 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded 54, consumed 1 bytes
+2026-02-01 16:55:22 | DEBUG   | hpack.hpack | Decoded (b'server-timing', b'ak_p; desc="1769936120981_390286889_2371204972_37990_1824_0_173_15";dur=1'), total consumed 67 bytes, indexed False
+2026-02-01 16:55:22 | DEBUG   | src.jd_api | 获取商品信息成功: SKU=100268293328, 名称=【理光GRIIIx HDF】理光（Ric...
+2026-02-01 16:55:22 | INFO    | src.monitor | 检查商品: 理光相机1 | 价格: ¥0.0 | 库存: 未知
+2026-02-01 16:55:22 | INFO    | src.monitor | 检测到变化: 理光相机1, 变化: {'is_new': True}
+2026-02-01 16:55:23 | INFO    | src.notifier | Telegram 消息发送成功
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Adding (b':method', b'GET') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 2 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Adding (b':authority', b'item.jd.com') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 1 with 6 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 8 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Adding (b':scheme', b'https') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 7 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Adding (b':path', b'/100211422735.html') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 4 with 6 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 13 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Adding (b'user-agent', b'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 58 with 6 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 85 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Adding (b'accept', b'application/json, text/javascript, */*; q=0.01') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 19 with 6 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 34 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Adding (b'accept-language', b'zh-CN,zh;q=0.9,en;q=0.8') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 17 with 6 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 19 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Adding (b'accept-encoding', b'gzip, deflate, br') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 16 with 6 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 13 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Adding (b'referer', b'https://www.jd.com/') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 51 with 6 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 15 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Adding (b'cookie', b'__jdv=76161171|www.google.com|-|referral|-|1769933663562; __jdu=17699336635622125707106; areaId=12; ipLoc-djd=12-978-0-0; PCSYCityID=CN_320000_320400_0; wlfstk_smdl=t2gzi4uh2jn1va0suygk1cx7qp7upk2i; TrackID=1CGQQkzh4XvSvxTFsXxfJAtxVMo2xlzjzzE1PYOT75uWFuHFJBkzH13y1wCFmev9bXn5HpV5_SaavtGN7Q2AAj26aGyiiYO56ovFdXK0BzfI; thor=E4A2194D6947E4964A761D782F8E5EC8BBDEE9C20241F5F15B7077B0BDA915A420A65BCDC9C1CBF24FCDBE57B004D11D5933F2D2FBCC97D3AB6F91DB95567ED5C782116AC1830F785534A268CFED2F4BC9890077A96820DCD5AFBF8C2E2B7E9D94C8CE710299BDC42C7255B5DCCC4E1298044921486EA3A8FBC7C6E47AEB5B22BF1C0EC9A31960C14C920021B18DFE722D09D9EE3D3F9C17E87CF1F1B9733348; light_key=AASBKE7rOxgWQziEhC_QY6yaCAWZLW3n0AtNjeSioZ8eQpB_b76KKvdBRrVfTNxd9gPq6ev_; pinId=DBIf8lqDiAl91ZGLpltf2LV9-x-f3wj7; pin=jd_5f952e33ff3b5; unick=o%E5%B1%B1%E6%B2%B3o; ceshi3.com=201; _tp=xtQBvjl7Xr1MLbVzYpux0RBIsOkEcqNYIOYXe5Rs7MU%3D; _pst=jd_5f952e33ff3b5; cn=7; mail_times=4%2C1%2C1769933692464; shshshfpa=91331422-58f9-205b-5ad4-d314868ebdde-1769933695; shshshfpx=91331422-58f9-205b-5ad4-d314868ebdde-1769933695; source=PC; platform=pc; __jda=211148491.17699336635622125707106.1769933664.1769933664.1769933664.1; __jdc=211148491; wxa_level=1; retina=0; cid=9; jxsid=17699341038857286806; appCode=ms0ca95114; mba_muid=17699336635622125707106; webp=1; visitkey=7687779492450605446; cd_eid=jdd03CHJSZ4NJUK6O7GS5TFIL4OJPQI5BVYRURFVAYFHQG43DMIB52TQDWUS4IZN2RGSF2IOIH2ZMU5SPVQZ5TRYGFRRDUIAAAAM4DBCHGFYAAAAACQ7YWH67RZLV3IX; 3AB9D23F7A4B3CSS=jdd03CHJSZ4NJUK6O7GS5TFIL4OJPQI5BVYRURFVAYFHQG43DMIB52TQDWUS4IZN2RGSF2IOIH2ZMU5SPVQZ5TRYGFRRDUIAAAAM4DBFSWQIAAAAADJCR5TC4CXSF7YX; 3AB9D23F7A4B3C9B=CHJSZ4NJUK6O7GS5TFIL4OJPQI5BVYRURFVAYFHQG43DMIB52TQDWUS4IZN2RGSF2IOIH2ZMU5SPVQZ5TRYGFRRDUI; _gia_d=1; PPRD_P=UUID.17699336635622125707106; jxsid_s_u=https%3A//my.m.jd.com/; sc_width=1920; flash=3_7oATSyAmlWBS58dqA6QZwF6fulainm6n-0n0GkF9p1HdrYFGdj-lzDNyLTynNmE59VI1r8UFjrYZZBreVAvih7KebIjWRrUgsC3TP3JiyNSRA8TKojmncl67MgCDo_GoBCZLa8tQ_bfb_zx9y8k7XlEcVJTxLqcmB1TLO2uk8QBnry3VFr5tTV**; shshshfpb=BApXWH69DG_lAxboyqr7O7-gdumM9SAwEBivSMbpo9xJ1ItZfQtPQy0-5iXipNYAgceC53b6OsqFbc7Bgua5asdp9Zlzg_GEDvUwB; jcap_dvzw_fp=2XrgrDse1Kt9DuORIzSkKgPdYh2y_mHI7dI1KMo52W3LfGgvurOwCYFnndHbE2lBwHZuAYVkDgutbiNp52g7XX3UiAQ=; TrackerID=CK85NNoOw615MvgDUej2TFmhVAlZYxBKZj6wugxAvoDb2P_LQIR8PWDk-yypyr8Ud4LbnvQHNi8pQfB4JnroQzR06KBCYDDunYY_Vndwb0Y; pt_key=AAJpfw0wADCJnawb_PHFwOccZrKmBJkptNR4nTAt-lCoy8V3YmK1rUHWjNbPEc6meeCg20x0FG4; pt_pin=jd_5f952e33ff3b5; pt_st=1_DEjYh_XmA1A5Kxw1pEaej14Lz6aq2D1mQyRq7vKVS0Z2zLEP-ii1OZJtPGKMltIZaiLo8NyRpLp9OMckiUdcot4o-CvuXAdam7YypbOuTlyX9fvWeX8qAs1_AqpuJmtac3RRuRnfjPXMBV5um2aKCDbvYZsI4FRLDi6jcWpf4Szvymp2Is8qwnELWuY3ki9edFYpo_Rfab4ouhMLe3PTBdxRoQm4zRoV92cL9d2P; pt_token=4ls0rbm3; pwdt_id=jd_5f952e33ff3b5; sfstoken=tk01mf6f61e16a8sMysxKzF4MngziLrKelmUYS00+3zBuZnVkroVSCp5JsUatzGWuIkfkos1iNBrLUEyHQnQGBHpsupn; whwswswws=; autoOpenApp_downCloseDate_jd_homePage=1769934197741_1; wqmnx1=MDEyNjM2MGgvLm04OTBvL1dzMGl4cGIzKCwgKW0uIGkzM2ZmMjVWRUlVKFI%3D; __jdb=211148491.31.17699336635622125707106|1.1769933664; mba_sid=1769934103906357749933.12; jxsid_s_t=1769934202407; __jd_ref_cls=MDownLoadFloat_ApiDownloadAppLayerConfigData; sdtoken=AAbEsBpEIOVjqTAKCQtvQu17s5duP8gxnOjcQIxpsWUjOQ5IaDlG2RHJIRv4wkVTFOpcUV21LpWZ2S2jZzwYRFQ9AXBkbjz1-f3A8yJgJDYhB7hTwun-VpYRxthlIRXMMbkqltfRm8465Fmkb1O-B2FPQm2eAr8-TIT0eAWVhcwDfFZd') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 32 with 6 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 2611 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Adding (b'sec-ch-ua', b'"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 7 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 55 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Adding (b'sec-ch-ua-mobile', b'?0') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 11 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 2 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Adding (b'sec-ch-ua-platform', b'"Windows"') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 13 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 8 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.table | Evicting b':authority': b'item.jd.com' from the header table
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Adding (b'sec-fetch-dest', b'empty') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 10 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 4 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.table | Evicting b':path': b'/100211422735.html' from the header table
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Adding (b'sec-fetch-mode', b'cors') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 10 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 3 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.table | Evicting b'user-agent': b'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' from the header table
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Adding (b'sec-fetch-site', b'same-site') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 10 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoding 6 with 7 bits
+2026-02-01 16:55:28 | DEBUG   | hpack.hpack | Encoded header block to b'\x82A\x882KJ\xfd$\\\x87\xa7\x87D\x8d` \x00\x82\x16\x84\'Ymy\xd3M\x1fz\xd5\xd0\x7ff\xa2\x81\xb0\xda\xe0S\xfa\xe4j\xa4?\x84)\xa7z\x81\x02\xe0\xfbS\x91\xaaq\xaf\xb5<\xb8\xd7\xf6\xa45\xd7Ay\x16<\xc6K\r\xb2\xea\xec\xb8\xa7\xf5\x9b\x1e\xfd\x19\xfe\x94\xa0\xddJ\xa6"\x93\xa9\xff\xb5/Oa\xe9+\x01\x10\x17\x02\xe0\\\nn\x1c\xa3\xb0\xcc6\xcb\xab\xb2\xe7S\xa2\x1du\xd0b\r&=LtA\xea\xfaQ%\xf2\x96:\x0f\xb8\xd0K\rZ~\x94\xf9c\xe7\xedN\xd0\x01p\x07Q\x93\xf7:\xd7\xb4\xfd{\x9f\xef\xb4\x00]\xff\xa2\xd5\xf7\xda\x00.\xf7P\x8d\x9b\xd9\xab\xfaRB\xcb@\xd2_\xa5#\xb3s\x8f\x9d)\xad\x17\x18c\xc7\x8f\x0b\xf4\x91r\x1e\x96?`\xff\xb4\x13\x8a.\x92w\x81\xd7\x02\xe0B\xe8\x7f\xe7\x8f\x1e\x17\x98\xe7\x9a\x82\xaeC\xd3\xff\x16\xff\x96\x16R\xd9`\xe8\xff\x8b\x7f\xc0\xba\xe3\xef\xb2\xcb\x8e2\xdb\x82\xfbR(\xbaIl\x01u\xc7\xdfe\x97\x1ce\xb7\x04 \x89\xb7@\xe8@\xe7\xda\x83\xb0\xa3\xc9$\x01\x17\xda\x86\xaf9\xc8\xb4\x9d$\x80"Y\xf7^X\x0b\x03\xedMw\xb7s\xbcd\xfa\xc9~\x0b\xdabd@\x00\x01\x13"\x03@\x04@\xfbS\xc5\x12\xa1=bE2Q\x02E7\xb35l\xe2\xe9P{\x8c\x08\xb7\xd4\xddBO.\xf6\xad\xdbk\xea#}\xa9\xbe\xc1\x93\xaeK\xf0\x06\xf6-\x9b:\xfb\x9d\xaf\xce\xfb\xbb\xf9\xdf\x85\x1f\x9ee\xcb\n|\xf1\xd0qy\xa3\xdfO~\xf0\x07_=[\xddn\xdeXm\xc7\x87-\xde\xbe\xf1\x85\x9fA\xf1{\r%\xee\xfc\x7f\x957\x8e\xbe-\xc5\xb8c\xee\x9cZ]\xd8(a\xe8\'\x07\x8b\xd1\x8d\xcfSn\x1f\xbe\x19?3\x02\xef\xb9r}\xa8\x99\xcfd\x18\x1a\x84A}\xab\xee>\xd3\xb8\x1a}\xc6\xa1u\xc0\xdfu\xe1a{\x03x/=v\xed\xfc\x18\x1f\xbc \t\xa0\xe1o\x08[\xba\xe8\x1dv\xe8.\xdf\x85\xf0\xb7\x0bB\x04.7v\xf5\xfb\xcf\xde\r\xeb\xb8D\xd6\x1b\xd7\xee\xe0m\xdb\xa0\x03W\xc2\x1b\xed\xbe\xcb8E|Xn\xde\xbc\xfb\xb7\xd9\x86\xeb\x98_\r\xfb\xaf\xb6\xdb\x8e\xe0\xbe\xdd\xe7^\x10B\xe47\x82\xf3 \xc2\xeb\xcd\xb6\xcbP\x89\xc7\xafa\xc1|XZ\xbby\xf7\x9f\x00\x1dv\x17\xdcx@\xbfz\xfbp\xe1\xbb\x85\xeb\xc2\xc0+\xae\xe0~\xfb\xed^z\xf6\x07B\x01>\xfd\xdb\xf7\x9a\x15\xe7D\xdbw[\xbfz\xf5\xe6\xb0\x04O\xbc\x06\x9a|Ai\xe70B\xcc/a\xbby\xdb\xce`i\xd8p]n\xe8\x85w\x08o\x03\x05\xe7\xe1d/\xb8\x0b\xc1j\xf3\xe2\x00\x04\x1b\xa1z\xfe\x1c\x0e\x88W\xc0\xfd\xf7\xf0`f\xfb8_\xbc\x17p<\xed\xec!\xc2\x1b\xaf\xba\xcb,\xb4\xf7\xda\x94\x1ai\xd3\x17R\xfa\x82\x18w]\xcd\x81\xdb5y\x9b\x96\xcff\xc1=\xe8\xb6ss\xd0\xefC\xcb\xf7?&j\x04)\xd3\xd0\xbb\x8c\x7f\xd7\x8b\xb2\xbb\xb1F\xeb\x99\xb3w\x92\xee\xdb8\xcb\xbfO\x99\x1f\x9b_g\x0b\xde/\xb5+5Y$\x82\xfd\xdc\x92\xbdGk\xe6\x86\x87\xc3\xfb\x8b=t&Qg\xe2\xfa\xdeV\x95\x9f\x1d\x1d\xfbR\xb3U\x07I"nW\xdb\x11YfYY\x8d\xbf\xb5-\xa8\xc4\xeb\x01\xd5\xc0\xda\xb7B\xad\xd0\xab\x81\xc5n\x89[\xac\x9f\xedB\x15\x13\x99\x95\xc8z`\x10\x03\xf6\xa4I\xae\x0f)\xd9w\xbfJ\x1d\xfc\xb0:3\xc7\xc7\xdf:\xed\xf2\r\xb7r#W\\\x04\xed\xa7\x9eM\\\xff\n\xde\xd4;\xa3\x82\xac\xdf\xfbR*\xd0\x98:I\x13r\xbe\xd8\x8a\xcb2\xca\xccm\xfd\xa8J\xa0w\xedJFj"I\xa9* iQ^\n\xa2\xbc\x17\\}\xf6Yq\xf14\xe3_j"tN\x89\xe5\xacp>\x16Y\x0bB\x12\xcd\xbd+\xeb\x08\r\xc6\xb3c\x91\xa5\xa4d-<\xe3\xc5\x8eI\n\xb0]q\xf7\xd9e\xc7\xdb\xfbQ\x13\xa2tO-~`|,\xb2\x16\x84%\x9bzW\xd6\x10\x1b\x8df\xc7#KH\xc8Zy\xc7\x8b\x1c\x92\x15`\xba\xe3\xef\xb2\xcb\x8f\xb7\xf6\xa2\x0fm\x84,\x1a\xef}\xa9]\x03L\xa7\xb2\x98+\'\xda\x91E\xd2A\xc0 \x84-<\xd3\xe1\\.\xb8\xfb\xec\xb2\xe3\x8c\xb6\xe0\x84\x116\xe8\x1d\x08\x1c\\.\xb8\xfb\xec\xb2\xe3\x8d.\x17\\}\xf6Yq\xc6\x97\x0b\xae>\xfb,\xb8\xe3K\x87\xedH\xa2\xe9! \x10B\x16\x9ei\xf0\xfd\xa9\xe3\xc8\xe2\xa0\xbd\xcbD\x01\xfbR\xc2\xa4\xd5\x0e\x00}\xa8CI\x03\xffjt\xf2\x83I\x00]q\xf7\xd9h e\xe7\x9btO8\xf0\x1c\xfbPu\xd7x\xf2\x16\nP\x02\r\xf6\xc2\x16\xbe\xd4\xa61\xc5M\xa6\x92\x00\xba\xe3\xef\xb2\xcb\x8e2\xdb\x82\x10D\xdb\xa0t s\xedO\x05\x8e\xb8\x03\xf6\xa7s \xc9\xea_P:\xe3\xce\xba\xeb\xed>&\x9b\x03\x80m\xa6\x9c\xfbP\x92DSI\x07I$\x037\xb1\xe5\xdd\xfa\xd6\x9c\xbc39\xa9\xdc[\x9b\xdf\x87&v\xb5e\xd7\xb3#wx\xf3\xdb\xc3n\x1e0\xf3\xc3\x8ff&\x99\xbf\xa3%\xd6\xc5\xbfe\xfe\\75\x93\xf7H\xb6\xe2\xdd\x84Y5d\xc6/\xdd\x1c\x1b\xdd\xaf\x8e\xcf\xd6\xf7\xed\xe7\x8b\x0e\xdd\xb7\xf8d\x86\x18a\xd0\xd5\xfb\xb7\xb1\xe2\xc3\xce\x18a\x86\x1b\xdb\x1d\xe7\xcb\x1b\x8e\xed\xfd\xcf\xc5\x9c\x9f\x9fj3\r\xd7\xef\x89\x9c.\xc2\xd5\xd6on\xdd\x07I$\x037\xb1\xe5\xdd\xfa\xd6\x9c\xbc39\xa9\xdc[\x9b\xdf\x87&v\xb5e\xd7\xb3#wx\xf3\xdb\xc3n\x1e0\xf3\xc3\x8ff&\x99\xbf\xa3%\xd6\xc5\xbfe\xfe\\75\x93\xf7H\xb6\xe2\xdd\x84Y5d\xc6/\xdd\x1c\x1b\xdd\xaf\x8e\xcf\xd6\xf7\xed\xe7\x8b\x0e\xdd\xb7\xf8d\x86\x18a\xd0\xd5\xfb\xb8wr\xd9\x92\x18a\x86\x1b\xf9omo}\xe6\xaf~n\xc2\xef?\xcf\xb5\x19\x86\xeb\xf7\xc4\xce\x17aj\xeb7\x9f\xbb\x05\xecyw~\xb5\xa7/\x0c\xcejw\x16\xe6\xf7\xe1\xc9\x9d\xadYu\xec\xc8\xdd\xde<\xf6\xf0\xdb\x87\x8c<\xf0\xe3\xd9\x89\xa6o\xe8\xc9u\xb1o\xd9\x7f\x97\r\xcdd\xfd\xd2-\xb8\xb7a\x16MY1\x8b\xf7G\x06\xf7k\xe3\xb3\xf5\xbd\xfby\xe2\xc3\xb7m\xfe\x19>\xd4\x8ac\x0e) \x0f\xda\x9a\xf5\xed\xbf\x16\xb88p\xc9}p\xba\xe3\xef\xb2\xcb\x8e2\xdb\x82\x10D\xdb\xa0t s\xedN\x9ePi"DV\xc1:SZ\x15f\x16\x18\xa7\xd2\xf4\xaf\xd2E\xc8zX\xfbQ\x04\x8b\xc1\xa4L\xf0\x05\xf1\x03\xedIh\x1a\'\x81\x98\x9d<;\xf7z\x86\x9a9]\xdc\xdb\xd2v\x85\xcd\x9f\xbe0\xb9-\xb4\x0c\xd5R\xe5K\x02\xa0b\xeb\x85\xfa\xc3\x8eK9\xe1\xc5\'E\xa8\xf7\x7fO\xac\xfb\xfdU\xa6\x9c\r\xbf\xc7 l{\x86\x1e\x96s\xfd\xfd\xbbax\xc3\xdc\xd3\xbb\x98\xb1\xe4\xe9\xcbm\x9c&E\xe6w\xebg)\xbdi\xdd\xb6\x17\xb7\xe6?Jj%\x0e;\xa2k\xd7\xcf\x16#\xdd\xbd\xfb\x9co\'dQ\xcb\x1c^\xfc\xbf\xe9\xee\xae\xfeQ\x80\x9cr\xef\xf3\x9f\xb1)\xba\x1d\xf9\xf5\n\xde\xafl\xbbU\x9e\x99\xe3\x86\xc6\xd3\xbf\x8f\xcf\xcf\xda\x88\x9d\x13\xa2yk\x8e\x0b\xb0\xd7\xf9\xcb\x1b\x8f\xdf\xc5\x15\x10\xf9\x8c\xfe\xbbX\xee\xa7V\x9aKi\xd0\xfe\xe8|`\xban\xfb\xb4GY\xdf\xf3\x949\x13\xfb.\xc4\xeb\xd9\xe8\x0b6o\xc3W\xa7\x9c3\x10\xb7\x9bf75#\xb6\x18\xc8\xed\xd9\xad\x1bcD\x95\xbf\xfbG\xb9\xa2\xc5\x82\xff~\x1e.\xfd\xa9\xd0\x83\xae);\xfb\xf1\x14\xb5\xc0/\xcb&\xb2\xfa\n\x1c\xc9~\xfd\xba\xb6\xe4\xf7\xbb\xaei\xb5\xc9\xceqz\x8a\x9cy\x1d\x93 sh;b\xe4\xceyqM\xde\xdb5x\xbd\xcf\rUI\x8e<\x02\xa2\xef\x8c\x7f\xb6\xc3\xcf\x8f[\xf3Z\x98\xcd\xa6\xb6\xc53\xbf\x9f\x8c\xf04; \xfbS}\x83\'R\xd9\x92\xfc\x17\xb3<\xde\x9d\'\xd5\xe1\xc0\xb7\xa3\xbc\xd7\xf8\x17\xa0\xb7\xe1\xa6~0\xd1\xfb\xcf\xcd\xdc\xdf\xbd\x1c\xf1l\xdea\xee{\xf1\x8b\\Y\xf6d\xda\xf6\xbeW\xfa\xad\xeb\xd5~\xac{\x84\x8dg\x8e\xae\xfb1\xe93\xd5\xec\x96\xebYj\xb0\xfb=\xed\x03\x99\xae\xde\xe7~\xfd\xb5s\xe7\x17\x1a\xa4\xf1\x189\xfd\xa9Zb\xea_PC\x0eZ\xe5\xf0\x0f\x10\xdf\xbd\x96\xa1\xf8\x8e-x\xf0\xf8\xd4B~\xd9\x9a\x9b\xb9z\xd6\x9d;Z\xab|)Z\x8b\xc7\xf4\xf7\x16y\xd3\x986p\xc7\xcb\xa6\x98\xf5\xe0#\x94\x94\xb7\xa6\x10<\x83\x0e&\xbe\xd4\xad1Vj\xa0\xe9$M\xca\xfbb+,\xcb+1\xb7\xf6\xa5i\x89\t\x801_\xc1\xd3\x9c\xf1~S\x08ao7\x9f\x01\xaf\x00\xcb\xd0-g\xf6\xe0\xfb\n\xf8i\xd9\xebog{\xe6\xe3\xb8\x1f\xa2\xf7\x9f\x06\xb5\x8c`\xea\xfd\xca\x9dx\xb3h\xa19?Fl\xe7{O\xad\xb5\xe7\xad\xfdZ\t\xd4\xdc$!\xd2\xd1\xd6\xbd\xde\xdf\xc8d\x1d.\xf3\xf5\\z\xad\xdfG\xaf\xc7\xe5\xef\xc8\xbf\x8fv\x85\x01\x8a\x1e\xd5\xdb\x96\x94\x8c\x8c\xed\xdbn\xda\xa5\xe9\xaf\xf3E\xde-\xdbH\x87\x9a\xf5\xf8\xfb\xf3\xfdFF\xb0\xed\xcf|\xcet\'*\xe5kw\xbe\xfe\xa9\xacY\x10\xf7o\x15`\xcf\xca\xdel\xf53\xe5\x93\x0f:\xcf\x16\xd9G\x1bG\xb6}\x19\xca\xce\xbd\xf7d\xf3\xb4\xfb)k\xde\xd3\xf1|D\xce\xfc\x82\xd7\xf6\xa5i\x89\'\xeaZ\xa0j\x84\x02\xc8\xe9g\xedJ\xfcH\x98\x8d$\x1d$\x89\xb9_lEe\x99ef6\xfe\xd4D\xa8I\xfa\x96\xa8\x13\xd4\x01\xa6W%p%\x0b\x83y\x1a=#\xceoxZ\xd1T\xde\xcd\x9e\xcc\xc5\xa2\x9e\x1c\xf7\x00\x1f\xed\x9fwm\xfd\xab\x8f[\x0f\xc7u\xea\xdb\xca\x8e\x03O\xbc\\\xad\xc9\xd6^\xa7@M\xa6\xed\x99\xf8`\xf5\x8fe[1]\xc7Z-\xae\xaf\xb5<O\xe1\x1e\x11\xe3\xc2 \xfbPv\xa4\xfa\xab-P\xd7\\R\x1f\xc5W\xa8:\x0b|i,]$\x8as\xd2]c\x98\xb0\x05\xd7\x1f}\x96\x82\xfb\xae\xb4\x18\x83\xf6\xa7\x8e\xd4\xd5\xe40h\xbf\x83\xd6\x9e\x9a\x05\xa3\x14\xdd\xf3\xd2\x06\xb5o\xbb\xdf8d\xf7\xa3\x15\r\x13\x16Oy\xafx\x9b7 [\x93\x17_z\x05\xfbN\x8e\x9cym\xe1G\x1c\xd8r*\xcd\xff\xb5"\x8b\xa4\x91\xc0 \x84-<\xd3\xe1]\x90\xae\x17\\}\xf6Yq\xc6[pB\x08\x9bt\x0e\x84\x0e\x7f\xc0\xae\x17\\}\xf6Yq\xc6\xbe\xd4\xa61\xc4\x83I\x00]q\xf7\xd9h e\xf08\xcbn\xba\xd3\xef\xb2\xca\xe1\x17\xda\x9d<\xa0\xd2D\x88\x93\x00]q\xf7\xd9h@\x13@w\xedH\xa2\xe9$V\x16X\x89B \xd1|\xfe*\xceq\xc9\x86\x83\x8d1CY\xaf\x9f\xc5T\x1crC]y\xc7\xe8\xb6^=R\x9ak\xe3H\xfe\xd4D\x89?R\xd5\x040\xc7\x81\x17k\xc1\x93W\x1e\x9d\xb7\xc3\x9a\xf6\xc4\xf7\xd9h]Cr[\xad\xe9\xbc\xd5\xab\xa16d\xf3Z9p\xe9\xabcy\x07~\x8cB\xdb\x8f.M\xbd\xda\xf1\xd7\x8e\xfc:\xab\'\x0e"\x0ez\xf9~\x8bp\xba~\xfb\xf1\xcfn\x1d\x8f\xc3\xf9w\xac}=\x85iY\x85\xefYf\xcb\x7f\x9c\xf7]\x9f\x7f\x8bj[\x8d|\xf6\xf9L\xf4d\xdb\xf9\xa3D}{P\x99v\xd2\xf3N7\x86\x9e\xb1\x87R\xd7E\x87^\xcaDXlym\xf97\x80\xb0\xf2\xe39<_\x97\x0f\xec\x9f@\x87AH\xb1\'Z\xd1\xff\xb7\xfet\x9d1B\xa5\xdb\x07T\x9f\xcf\xdfx?\x97\xbf\x9f\xa5?\x9b\xd3\xd8zMm?\xcf\xdfx?\x90\x88\x1f\xcf\xd2\x9f\xce#\x9ej\n\xa5\xe9\xec=%\xfe~\xfb\xc1\xfc\x84@\xfe\x7f@\x8bAH\xb1\'Z\xd1\xadI\xe35\x05\x82\xff\x01@\x8dAH\xb1\'Z\xd1\xad]\x03L\xa7\xb2\x9f\x88\xfey\x1a\xa9\x0f\xe1\x1f\xcf@\x8aAH\xb4\xa5I\'ZB\xa1?\x84-5\xa7\xd7@\x8aAH\xb4\xa5I\'Z\x93\xc8_\x83!\xecG@\x8aAH\xb4\xa5I\'Y\x06I\x7f\x86@\xe9*\xc82K'
+2026-02-01 16:55:28 | DEBUG   | hpack.table | Resizing header table to 4096 from 4096
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoding b'\x18\x82\x10\x01\x1f\x10\x92I|\xa5\x89\xd3M\x1fj\x12q\xd8\x82\xa6\x0bS*\xcf\x7f\x10\x82Al\x85\x0b\xae\xae\xcb\xdf\x1f\t\x86\xa8\xeb!\'\xb0\xbf\x1f\x15\x96\xddm_J\x00*a,j\x08\x02q@=q\xb6\xee2\x051h\xdf\x10\x02hh\x82\n\xc1\x10\x8e=\x86\x98\xd5,9\x8bRV%\x16\xa1%\xb3\x02?0\x1f\'\x03jfe\x1f)\x8a\xa4~V\x1c\xc5\x81\xe7\x1a\x00?\x10\x8f\xf2\xb0\xfa\x8e\x91\x99d\xd8:\x91)\xec\xa4\xb2\x7f\x90}@\xba\xdbN(\x05+\xa68)\xdb\xc3G\xd0\xbf\x1f\x0b\x83\x9b\xd9\xab\x1f\x12\x96\xddm_J\x00*a,j\x08\x02q@=q\xb6\xee\t\xf51h\xdf\x1f\r\x84\x0b\xae\x85\xff\x1f,\x8b\x84\x84-i[\x05D<\x86\xaao\x1f(\xdcI\xfa\x96\xa8\x00\x19[rR\x8c\xae\xb7\x1bM\xb8G\x1atn? e\x8d\xe9di\xa1}3\xf4\xfb\xcc\x89\xf7~\xd4\xc1\xe6\xb3XTA\xba\xda\xbe\x94\x00T\xc2X\xd4\x10\x04\xe2\x80~\xe0\x01p\x00S\x16\x8d\xffjh\x1f\x95\xa1\x98\xb0\x05\xe0\x03\xedK\xe7\xa4f\xaa\x05\xfaH\xb9\x0fO\xda\x9a\xc6\x99\xe0c\x10\x8aAl\xee[\x16I\xa95S\x7f\x8f$\x95,A\x92r\xfd\xa9!PH4d\xdd\xbb\x10\x8aAl\xee[\x16I\xa95S\x7f\x8a,\x93\x17\xedI-\xb2\x07\x04\xff\x10\x8aAl\xee[\x16I\xa95S\x7f\x8b=\x86\x98\xd5}\xa9%\xb6@\x16\x9d\x10\x892\x16\x1fQ\xd23,I*\x83\xdfe\xa5\x10\x8d%\x06-IXv\xa6r\xd4\x93\x11cW\x89\x0b\xe2]\xf5\xc2\xcb\x8b\xb6\xef\x10\x8aAl\xee[\x16I\xa95S\x7f\xb6\x1fX\xab\xfbRB\xa0\x90\x7f!u\xc7\xdfe\xc0\x89\xe6\xde\x0cL\xbe\x01<\xe3\xcf?\x10\x99t"\x0b\xcd\x89\xf8\x9du\xc0\xbf\x10^h\x11\x02 \xb8\xf4Ao\xf9\xfb\x92\xdb \x0f'
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 8, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b':status', b'200'), total consumed 4 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 31, consumed 2 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 18, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b'content-type', b'text/html; charset=utf-8'), total consumed 21 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 5, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b'ser', b'177.38'), total consumed 10 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 24, consumed 2 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 6, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b'cache-control', b'no-store'), total consumed 9 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 36, consumed 2 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 22, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b'expires', b'Sun, 01 Feb 2026 08:55:30 GMT'), total consumed 25 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (<memory at 0x000001A5758671C0>, b'1-1'), total consumed 7 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 14, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b'origin-agent-cluster', <memory at 0x000001A575866980>), total consumed 19 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 54, consumed 2 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 3, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b'server', <memory at 0x000001A575865FC0>), total consumed 6 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 56, consumed 2 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b'strict-transport-security', b'max-age=86400'), total consumed 13 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 15, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 16, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b'x-akamai-transformed', b'9 17546 0 pmb=mRUM,2'), total consumed 34 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 26, consumed 2 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 3, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b'content-encoding', b'gzip'), total consumed 6 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 33, consumed 2 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 22, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b'date', b'Sun, 01 Feb 2026 08:55:29 GMT'), total consumed 25 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 28, consumed 2 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 4, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b'content-length', b'17719'), total consumed 7 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 59, consumed 2 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 11, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b'vary', b'Accept-Encoding'), total consumed 14 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 55, consumed 2 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 92, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b'set-cookie', b'token=01f56feae75b456c647a69d1fb8fd442,3,983297; Expires=Sun, 01 Feb 2026 09:00:00 GMT; Max-Age=1800; Domain=.jd.com; Path=/'), total consumed 95 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 15, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b'server-timing', b'cdn-cache; desc=MISS'), total consumed 28 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b'server-timing', b'edge; dur=629'), total consumed 23 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 11, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b'server-timing', b'origin; dur=147'), total consumed 24 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 9, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 3, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b'is-akamai-cdn', b'True'), total consumed 15 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 13, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 9, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b'client-authentic-ip', b'192.9.136.57'), total consumed 25 bytes, indexed False
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded 54, consumed 1 bytes
+2026-02-01 16:55:29 | DEBUG   | hpack.hpack | Decoded (b'server-timing', b'ak_p; desc="1769936128581_390286889_2371218529_77619_1840_0_168_15";dur=1'), total consumed 67 bytes, indexed False
+2026-02-01 16:55:40 | ERROR   | src.jd_api | 请求超时 https://p.3.cn/prices/mgets
+2026-02-01 16:55:51 | ERROR   | src.jd_api | 请求超时 https://c0.3.cn/stocks
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Adding (b':method', b'GET') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 2 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Adding (b':authority', b'item.jd.com') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 1 with 6 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 8 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Adding (b':scheme', b'https') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 7 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Adding (b':path', b'/100211422735.html') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 4 with 6 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 13 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Adding (b'user-agent', b'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 58 with 6 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 85 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Adding (b'accept', b'application/json, text/javascript, */*; q=0.01') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 19 with 6 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 34 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Adding (b'accept-language', b'zh-CN,zh;q=0.9,en;q=0.8') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 17 with 6 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 19 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Adding (b'accept-encoding', b'gzip, deflate, br') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 16 with 6 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 13 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Adding (b'referer', b'https://www.jd.com/') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 51 with 6 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 15 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Adding (b'cookie', b'__jdv=76161171|www.google.com|-|referral|-|1769933663562; __jdu=17699336635622125707106; areaId=12; ipLoc-djd=12-978-0-0; PCSYCityID=CN_320000_320400_0; wlfstk_smdl=t2gzi4uh2jn1va0suygk1cx7qp7upk2i; TrackID=1CGQQkzh4XvSvxTFsXxfJAtxVMo2xlzjzzE1PYOT75uWFuHFJBkzH13y1wCFmev9bXn5HpV5_SaavtGN7Q2AAj26aGyiiYO56ovFdXK0BzfI; thor=E4A2194D6947E4964A761D782F8E5EC8BBDEE9C20241F5F15B7077B0BDA915A420A65BCDC9C1CBF24FCDBE57B004D11D5933F2D2FBCC97D3AB6F91DB95567ED5C782116AC1830F785534A268CFED2F4BC9890077A96820DCD5AFBF8C2E2B7E9D94C8CE710299BDC42C7255B5DCCC4E1298044921486EA3A8FBC7C6E47AEB5B22BF1C0EC9A31960C14C920021B18DFE722D09D9EE3D3F9C17E87CF1F1B9733348; light_key=AASBKE7rOxgWQziEhC_QY6yaCAWZLW3n0AtNjeSioZ8eQpB_b76KKvdBRrVfTNxd9gPq6ev_; pinId=DBIf8lqDiAl91ZGLpltf2LV9-x-f3wj7; pin=jd_5f952e33ff3b5; unick=o%E5%B1%B1%E6%B2%B3o; ceshi3.com=201; _tp=xtQBvjl7Xr1MLbVzYpux0RBIsOkEcqNYIOYXe5Rs7MU%3D; _pst=jd_5f952e33ff3b5; cn=7; mail_times=4%2C1%2C1769933692464; shshshfpa=91331422-58f9-205b-5ad4-d314868ebdde-1769933695; shshshfpx=91331422-58f9-205b-5ad4-d314868ebdde-1769933695; source=PC; platform=pc; __jda=211148491.17699336635622125707106.1769933664.1769933664.1769933664.1; __jdc=211148491; wxa_level=1; retina=0; cid=9; jxsid=17699341038857286806; appCode=ms0ca95114; mba_muid=17699336635622125707106; webp=1; visitkey=7687779492450605446; cd_eid=jdd03CHJSZ4NJUK6O7GS5TFIL4OJPQI5BVYRURFVAYFHQG43DMIB52TQDWUS4IZN2RGSF2IOIH2ZMU5SPVQZ5TRYGFRRDUIAAAAM4DBCHGFYAAAAACQ7YWH67RZLV3IX; 3AB9D23F7A4B3CSS=jdd03CHJSZ4NJUK6O7GS5TFIL4OJPQI5BVYRURFVAYFHQG43DMIB52TQDWUS4IZN2RGSF2IOIH2ZMU5SPVQZ5TRYGFRRDUIAAAAM4DBFSWQIAAAAADJCR5TC4CXSF7YX; 3AB9D23F7A4B3C9B=CHJSZ4NJUK6O7GS5TFIL4OJPQI5BVYRURFVAYFHQG43DMIB52TQDWUS4IZN2RGSF2IOIH2ZMU5SPVQZ5TRYGFRRDUI; _gia_d=1; PPRD_P=UUID.17699336635622125707106; jxsid_s_u=https%3A//my.m.jd.com/; sc_width=1920; flash=3_7oATSyAmlWBS58dqA6QZwF6fulainm6n-0n0GkF9p1HdrYFGdj-lzDNyLTynNmE59VI1r8UFjrYZZBreVAvih7KebIjWRrUgsC3TP3JiyNSRA8TKojmncl67MgCDo_GoBCZLa8tQ_bfb_zx9y8k7XlEcVJTxLqcmB1TLO2uk8QBnry3VFr5tTV**; shshshfpb=BApXWH69DG_lAxboyqr7O7-gdumM9SAwEBivSMbpo9xJ1ItZfQtPQy0-5iXipNYAgceC53b6OsqFbc7Bgua5asdp9Zlzg_GEDvUwB; jcap_dvzw_fp=2XrgrDse1Kt9DuORIzSkKgPdYh2y_mHI7dI1KMo52W3LfGgvurOwCYFnndHbE2lBwHZuAYVkDgutbiNp52g7XX3UiAQ=; TrackerID=CK85NNoOw615MvgDUej2TFmhVAlZYxBKZj6wugxAvoDb2P_LQIR8PWDk-yypyr8Ud4LbnvQHNi8pQfB4JnroQzR06KBCYDDunYY_Vndwb0Y; pt_key=AAJpfw0wADCJnawb_PHFwOccZrKmBJkptNR4nTAt-lCoy8V3YmK1rUHWjNbPEc6meeCg20x0FG4; pt_pin=jd_5f952e33ff3b5; pt_st=1_DEjYh_XmA1A5Kxw1pEaej14Lz6aq2D1mQyRq7vKVS0Z2zLEP-ii1OZJtPGKMltIZaiLo8NyRpLp9OMckiUdcot4o-CvuXAdam7YypbOuTlyX9fvWeX8qAs1_AqpuJmtac3RRuRnfjPXMBV5um2aKCDbvYZsI4FRLDi6jcWpf4Szvymp2Is8qwnELWuY3ki9edFYpo_Rfab4ouhMLe3PTBdxRoQm4zRoV92cL9d2P; pt_token=4ls0rbm3; pwdt_id=jd_5f952e33ff3b5; sfstoken=tk01mf6f61e16a8sMysxKzF4MngziLrKelmUYS00+3zBuZnVkroVSCp5JsUatzGWuIkfkos1iNBrLUEyHQnQGBHpsupn; whwswswws=; autoOpenApp_downCloseDate_jd_homePage=1769934197741_1; wqmnx1=MDEyNjM2MGgvLm04OTBvL1dzMGl4cGIzKCwgKW0uIGkzM2ZmMjVWRUlVKFI%3D; __jdb=211148491.31.17699336635622125707106|1.1769933664; mba_sid=1769934103906357749933.12; jxsid_s_t=1769934202407; __jd_ref_cls=MDownLoadFloat_ApiDownloadAppLayerConfigData; sdtoken=AAbEsBpEIOVjqTAKCQtvQu17s5duP8gxnOjcQIxpsWUjOQ5IaDlG2RHJIRv4wkVTFOpcUV21LpWZ2S2jZzwYRFQ9AXBkbjz1-f3A8yJgJDYhB7hTwun-VpYRxthlIRXMMbkqltfRm8465Fmkb1O-B2FPQm2eAr8-TIT0eAWVhcwDfFZd') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 32 with 6 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 2611 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Adding (b'sec-ch-ua', b'"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 7 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 55 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Adding (b'sec-ch-ua-mobile', b'?0') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 11 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 2 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Adding (b'sec-ch-ua-platform', b'"Windows"') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 13 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 8 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.table | Evicting b':authority': b'item.jd.com' from the header table
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Adding (b'sec-fetch-dest', b'empty') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 10 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 4 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.table | Evicting b':path': b'/100211422735.html' from the header table
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Adding (b'sec-fetch-mode', b'cors') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 10 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 3 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.table | Evicting b'user-agent': b'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' from the header table
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Adding (b'sec-fetch-site', b'same-site') to the header table, sensitive:False, huffman:True
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 10 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoding 6 with 7 bits
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Encoded header block to b'\x82A\x882KJ\xfd$\\\x87\xa7\x87D\x8d` \x00\x82\x16\x84\'Ymy\xd3M\x1fz\xd5\xd0\x7ff\xa2\x81\xb0\xda\xe0S\xfa\xe4j\xa4?\x84)\xa7z\x81\x02\xe0\xfbS\x91\xaaq\xaf\xb5<\xb8\xd7\xf6\xa45\xd7Ay\x16<\xc6K\r\xb2\xea\xec\xb8\xa7\xf5\x9b\x1e\xfd\x19\xfe\x94\xa0\xddJ\xa6"\x93\xa9\xff\xb5/Oa\xe9+\x01\x10\x17\x02\xe0\\\nn\x1c\xa3\xb0\xcc6\xcb\xab\xb2\xe7S\xa2\x1du\xd0b\r&=LtA\xea\xfaQ%\xf2\x96:\x0f\xb8\xd0K\rZ~\x94\xf9c\xe7\xedN\xd0\x01p\x07Q\x93\xf7:\xd7\xb4\xfd{\x9f\xef\xb4\x00]\xff\xa2\xd5\xf7\xda\x00.\xf7P\x8d\x9b\xd9\xab\xfaRB\xcb@\xd2_\xa5#\xb3s\x8f\x9d)\xad\x17\x18c\xc7\x8f\x0b\xf4\x91r\x1e\x96?`\xff\xb4\x13\x8a.\x92w\x81\xd7\x02\xe0B\xe8\x7f\xe7\x8f\x1e\x17\x98\xe7\x9a\x82\xaeC\xd3\xff\x16\xff\x96\x16R\xd9`\xe8\xff\x8b\x7f\xc0\xba\xe3\xef\xb2\xcb\x8e2\xdb\x82\xfbR(\xbaIl\x01u\xc7\xdfe\x97\x1ce\xb7\x04 \x89\xb7@\xe8@\xe7\xda\x83\xb0\xa3\xc9$\x01\x17\xda\x86\xaf9\xc8\xb4\x9d$\x80"Y\xf7^X\x0b\x03\xedMw\xb7s\xbcd\xfa\xc9~\x0b\xdabd@\x00\x01\x13"\x03@\x04@\xfbS\xc5\x12\xa1=bE2Q\x02E7\xb35l\xe2\xe9P{\x8c\x08\xb7\xd4\xddBO.\xf6\xad\xdbk\xea#}\xa9\xbe\xc1\x93\xaeK\xf0\x06\xf6-\x9b:\xfb\x9d\xaf\xce\xfb\xbb\xf9\xdf\x85\x1f\x9ee\xcb\n|\xf1\xd0qy\xa3\xdfO~\xf0\x07_=[\xddn\xdeXm\xc7\x87-\xde\xbe\xf1\x85\x9fA\xf1{\r%\xee\xfc\x7f\x957\x8e\xbe-\xc5\xb8c\xee\x9cZ]\xd8(a\xe8\'\x07\x8b\xd1\x8d\xcfSn\x1f\xbe\x19?3\x02\xef\xb9r}\xa8\x99\xcfd\x18\x1a\x84A}\xab\xee>\xd3\xb8\x1a}\xc6\xa1u\xc0\xdfu\xe1a{\x03x/=v\xed\xfc\x18\x1f\xbc \t\xa0\xe1o\x08[\xba\xe8\x1dv\xe8.\xdf\x85\xf0\xb7\x0bB\x04.7v\xf5\xfb\xcf\xde\r\xeb\xb8D\xd6\x1b\xd7\xee\xe0m\xdb\xa0\x03W\xc2\x1b\xed\xbe\xcb8E|Xn\xde\xbc\xfb\xb7\xd9\x86\xeb\x98_\r\xfb\xaf\xb6\xdb\x8e\xe0\xbe\xdd\xe7^\x10B\xe47\x82\xf3 \xc2\xeb\xcd\xb6\xcbP\x89\xc7\xafa\xc1|XZ\xbby\xf7\x9f\x00\x1dv\x17\xdcx@\xbfz\xfbp\xe1\xbb\x85\xeb\xc2\xc0+\xae\xe0~\xfb\xed^z\xf6\x07B\x01>\xfd\xdb\xf7\x9a\x15\xe7D\xdbw[\xbfz\xf5\xe6\xb0\x04O\xbc\x06\x9a|Ai\xe70B\xcc/a\xbby\xdb\xce`i\xd8p]n\xe8\x85w\x08o\x03\x05\xe7\xe1d/\xb8\x0b\xc1j\xf3\xe2\x00\x04\x1b\xa1z\xfe\x1c\x0e\x88W\xc0\xfd\xf7\xf0`f\xfb8_\xbc\x17p<\xed\xec!\xc2\x1b\xaf\xba\xcb,\xb4\xf7\xda\x94\x1ai\xd3\x17R\xfa\x82\x18w]\xcd\x81\xdb5y\x9b\x96\xcff\xc1=\xe8\xb6ss\xd0\xefC\xcb\xf7?&j\x04)\xd3\xd0\xbb\x8c\x7f\xd7\x8b\xb2\xbb\xb1F\xeb\x99\xb3w\x92\xee\xdb8\xcb\xbfO\x99\x1f\x9b_g\x0b\xde/\xb5+5Y$\x82\xfd\xdc\x92\xbdGk\xe6\x86\x87\xc3\xfb\x8b=t&Qg\xe2\xfa\xdeV\x95\x9f\x1d\x1d\xfbR\xb3U\x07I"nW\xdb\x11YfYY\x8d\xbf\xb5-\xa8\xc4\xeb\x01\xd5\xc0\xda\xb7B\xad\xd0\xab\x81\xc5n\x89[\xac\x9f\xedB\x15\x13\x99\x95\xc8z`\x10\x03\xf6\xa4I\xae\x0f)\xd9w\xbfJ\x1d\xfc\xb0:3\xc7\xc7\xdf:\xed\xf2\r\xb7r#W\\\x04\xed\xa7\x9eM\\\xff\n\xde\xd4;\xa3\x82\xac\xdf\xfbR*\xd0\x98:I\x13r\xbe\xd8\x8a\xcb2\xca\xccm\xfd\xa8J\xa0w\xedJFj"I\xa9* iQ^\n\xa2\xbc\x17\\}\xf6Yq\xf14\xe3_j"tN\x89\xe5\xacp>\x16Y\x0bB\x12\xcd\xbd+\xeb\x08\r\xc6\xb3c\x91\xa5\xa4d-<\xe3\xc5\x8eI\n\xb0]q\xf7\xd9e\xc7\xdb\xfbQ\x13\xa2tO-~`|,\xb2\x16\x84%\x9bzW\xd6\x10\x1b\x8df\xc7#KH\xc8Zy\xc7\x8b\x1c\x92\x15`\xba\xe3\xef\xb2\xcb\x8f\xb7\xf6\xa2\x0fm\x84,\x1a\xef}\xa9]\x03L\xa7\xb2\x98+\'\xda\x91E\xd2A\xc0 \x84-<\xd3\xe1\\.\xb8\xfb\xec\xb2\xe3\x8c\xb6\xe0\x84\x116\xe8\x1d\x08\x1c\\.\xb8\xfb\xec\xb2\xe3\x8d.\x17\\}\xf6Yq\xc6\x97\x0b\xae>\xfb,\xb8\xe3K\x87\xedH\xa2\xe9! \x10B\x16\x9ei\xf0\xfd\xa9\xe3\xc8\xe2\xa0\xbd\xcbD\x01\xfbR\xc2\xa4\xd5\x0e\x00}\xa8CI\x03\xffjt\xf2\x83I\x00]q\xf7\xd9h e\xe7\x9btO8\xf0\x1c\xfbPu\xd7x\xf2\x16\nP\x02\r\xf6\xc2\x16\xbe\xd4\xa61\xc5M\xa6\x92\x00\xba\xe3\xef\xb2\xcb\x8e2\xdb\x82\x10D\xdb\xa0t s\xedO\x05\x8e\xb8\x03\xf6\xa7s \xc9\xea_P:\xe3\xce\xba\xeb\xed>&\x9b\x03\x80m\xa6\x9c\xfbP\x92DSI\x07I$\x037\xb1\xe5\xdd\xfa\xd6\x9c\xbc39\xa9\xdc[\x9b\xdf\x87&v\xb5e\xd7\xb3#wx\xf3\xdb\xc3n\x1e0\xf3\xc3\x8ff&\x99\xbf\xa3%\xd6\xc5\xbfe\xfe\\75\x93\xf7H\xb6\xe2\xdd\x84Y5d\xc6/\xdd\x1c\x1b\xdd\xaf\x8e\xcf\xd6\xf7\xed\xe7\x8b\x0e\xdd\xb7\xf8d\x86\x18a\xd0\xd5\xfb\xb7\xb1\xe2\xc3\xce\x18a\x86\x1b\xdb\x1d\xe7\xcb\x1b\x8e\xed\xfd\xcf\xc5\x9c\x9f\x9fj3\r\xd7\xef\x89\x9c.\xc2\xd5\xd6on\xdd\x07I$\x037\xb1\xe5\xdd\xfa\xd6\x9c\xbc39\xa9\xdc[\x9b\xdf\x87&v\xb5e\xd7\xb3#wx\xf3\xdb\xc3n\x1e0\xf3\xc3\x8ff&\x99\xbf\xa3%\xd6\xc5\xbfe\xfe\\75\x93\xf7H\xb6\xe2\xdd\x84Y5d\xc6/\xdd\x1c\x1b\xdd\xaf\x8e\xcf\xd6\xf7\xed\xe7\x8b\x0e\xdd\xb7\xf8d\x86\x18a\xd0\xd5\xfb\xb8wr\xd9\x92\x18a\x86\x1b\xf9omo}\xe6\xaf~n\xc2\xef?\xcf\xb5\x19\x86\xeb\xf7\xc4\xce\x17aj\xeb7\x9f\xbb\x05\xecyw~\xb5\xa7/\x0c\xcejw\x16\xe6\xf7\xe1\xc9\x9d\xadYu\xec\xc8\xdd\xde<\xf6\xf0\xdb\x87\x8c<\xf0\xe3\xd9\x89\xa6o\xe8\xc9u\xb1o\xd9\x7f\x97\r\xcdd\xfd\xd2-\xb8\xb7a\x16MY1\x8b\xf7G\x06\xf7k\xe3\xb3\xf5\xbd\xfby\xe2\xc3\xb7m\xfe\x19>\xd4\x8ac\x0e) \x0f\xda\x9a\xf5\xed\xbf\x16\xb88p\xc9}p\xba\xe3\xef\xb2\xcb\x8e2\xdb\x82\x10D\xdb\xa0t s\xedN\x9ePi"DV\xc1:SZ\x15f\x16\x18\xa7\xd2\xf4\xaf\xd2E\xc8zX\xfbQ\x04\x8b\xc1\xa4L\xf0\x05\xf1\x03\xedIh\x1a\'\x81\x98\x9d<;\xf7z\x86\x9a9]\xdc\xdb\xd2v\x85\xcd\x9f\xbe0\xb9-\xb4\x0c\xd5R\xe5K\x02\xa0b\xeb\x85\xfa\xc3\x8eK9\xe1\xc5\'E\xa8\xf7\x7fO\xac\xfb\xfdU\xa6\x9c\r\xbf\xc7 l{\x86\x1e\x96s\xfd\xfd\xbbax\xc3\xdc\xd3\xbb\x98\xb1\xe4\xe9\xcbm\x9c&E\xe6w\xebg)\xbdi\xdd\xb6\x17\xb7\xe6?Jj%\x0e;\xa2k\xd7\xcf\x16#\xdd\xbd\xfb\x9co\'dQ\xcb\x1c^\xfc\xbf\xe9\xee\xae\xfeQ\x80\x9cr\xef\xf3\x9f\xb1)\xba\x1d\xf9\xf5\n\xde\xafl\xbbU\x9e\x99\xe3\x86\xc6\xd3\xbf\x8f\xcf\xcf\xda\x88\x9d\x13\xa2yk\x8e\x0b\xb0\xd7\xf9\xcb\x1b\x8f\xdf\xc5\x15\x10\xf9\x8c\xfe\xbbX\xee\xa7V\x9aKi\xd0\xfe\xe8|`\xban\xfb\xb4GY\xdf\xf3\x949\x13\xfb.\xc4\xeb\xd9\xe8\x0b6o\xc3W\xa7\x9c3\x10\xb7\x9bf75#\xb6\x18\xc8\xed\xd9\xad\x1bcD\x95\xbf\xfbG\xb9\xa2\xc5\x82\xff~\x1e.\xfd\xa9\xd0\x83\xae);\xfb\xf1\x14\xb5\xc0/\xcb&\xb2\xfa\n\x1c\xc9~\xfd\xba\xb6\xe4\xf7\xbb\xaei\xb5\xc9\xceqz\x8a\x9cy\x1d\x93 sh;b\xe4\xceyqM\xde\xdb5x\xbd\xcf\rUI\x8e<\x02\xa2\xef\x8c\x7f\xb6\xc3\xcf\x8f[\xf3Z\x98\xcd\xa6\xb6\xc53\xbf\x9f\x8c\xf04; \xfbS}\x83\'R\xd9\x92\xfc\x17\xb3<\xde\x9d\'\xd5\xe1\xc0\xb7\xa3\xbc\xd7\xf8\x17\xa0\xb7\xe1\xa6~0\xd1\xfb\xcf\xcd\xdc\xdf\xbd\x1c\xf1l\xdea\xee{\xf1\x8b\\Y\xf6d\xda\xf6\xbeW\xfa\xad\xeb\xd5~\xac{\x84\x8dg\x8e\xae\xfb1\xe93\xd5\xec\x96\xebYj\xb0\xfb=\xed\x03\x99\xae\xde\xe7~\xfd\xb5s\xe7\x17\x1a\xa4\xf1\x189\xfd\xa9Zb\xea_PC\x0eZ\xe5\xf0\x0f\x10\xdf\xbd\x96\xa1\xf8\x8e-x\xf0\xf8\xd4B~\xd9\x9a\x9b\xb9z\xd6\x9d;Z\xab|)Z\x8b\xc7\xf4\xf7\x16y\xd3\x986p\xc7\xcb\xa6\x98\xf5\xe0#\x94\x94\xb7\xa6\x10<\x83\x0e&\xbe\xd4\xad1Vj\xa0\xe9$M\xca\xfbb+,\xcb+1\xb7\xf6\xa5i\x89\t\x801_\xc1\xd3\x9c\xf1~S\x08ao7\x9f\x01\xaf\x00\xcb\xd0-g\xf6\xe0\xfb\n\xf8i\xd9\xebog{\xe6\xe3\xb8\x1f\xa2\xf7\x9f\x06\xb5\x8c`\xea\xfd\xca\x9dx\xb3h\xa19?Fl\xe7{O\xad\xb5\xe7\xad\xfdZ\t\xd4\xdc$!\xd2\xd1\xd6\xbd\xde\xdf\xc8d\x1d.\xf3\xf5\\z\xad\xdfG\xaf\xc7\xe5\xef\xc8\xbf\x8fv\x85\x01\x8a\x1e\xd5\xdb\x96\x94\x8c\x8c\xed\xdbn\xda\xa5\xe9\xaf\xf3E\xde-\xdbH\x87\x9a\xf5\xf8\xfb\xf3\xfdFF\xb0\xed\xcf|\xcet\'*\xe5kw\xbe\xfe\xa9\xacY\x10\xf7o\x15`\xcf\xca\xdel\xf53\xe5\x93\x0f:\xcf\x16\xd9G\x1bG\xb6}\x19\xca\xce\xbd\xf7d\xf3\xb4\xfb)k\xde\xd3\xf1|D\xce\xfc\x82\xd7\xf6\xa5i\x89\'\xeaZ\xa0j\x84\x02\xc8\xe9g\xedJ\xfcH\x98\x8d$\x1d$\x89\xb9_lEe\x99ef6\xfe\xd4D\xa8I\xfa\x96\xa8\x13\xd4\x01\xa6W%p%\x0b\x83y\x1a=#\xceoxZ\xd1T\xde\xcd\x9e\xcc\xc5\xa2\x9e\x1c\xf7\x00\x1f\xed\x9fwm\xfd\xab\x8f[\x0f\xc7u\xea\xdb\xca\x8e\x03O\xbc\\\xad\xc9\xd6^\xa7@M\xa6\xed\x99\xf8`\xf5\x8fe[1]\xc7Z-\xae\xaf\xb5<O\xe1\x1e\x11\xe3\xc2 \xfbPv\xa4\xfa\xab-P\xd7\\R\x1f\xc5W\xa8:\x0b|i,]$\x8as\xd2]c\x98\xb0\x05\xd7\x1f}\x96\x82\xfb\xae\xb4\x18\x83\xf6\xa7\x8e\xd4\xd5\xe40h\xbf\x83\xd6\x9e\x9a\x05\xa3\x14\xdd\xf3\xd2\x06\xb5o\xbb\xdf8d\xf7\xa3\x15\r\x13\x16Oy\xafx\x9b7 [\x93\x17_z\x05\xfbN\x8e\x9cym\xe1G\x1c\xd8r*\xcd\xff\xb5"\x8b\xa4\x91\xc0 \x84-<\xd3\xe1]\x90\xae\x17\\}\xf6Yq\xc6[pB\x08\x9bt\x0e\x84\x0e\x7f\xc0\xae\x17\\}\xf6Yq\xc6\xbe\xd4\xa61\xc4\x83I\x00]q\xf7\xd9h e\xf08\xcbn\xba\xd3\xef\xb2\xca\xe1\x17\xda\x9d<\xa0\xd2D\x88\x93\x00]q\xf7\xd9h@\x13@w\xedH\xa2\xe9$V\x16X\x89B \xd1|\xfe*\xceq\xc9\x86\x83\x8d1CY\xaf\x9f\xc5T\x1crC]y\xc7\xe8\xb6^=R\x9ak\xe3H\xfe\xd4D\x89?R\xd5\x040\xc7\x81\x17k\xc1\x93W\x1e\x9d\xb7\xc3\x9a\xf6\xc4\xf7\xd9h]Cr[\xad\xe9\xbc\xd5\xab\xa16d\xf3Z9p\xe9\xabcy\x07~\x8cB\xdb\x8f.M\xbd\xda\xf1\xd7\x8e\xfc:\xab\'\x0e"\x0ez\xf9~\x8bp\xba~\xfb\xf1\xcfn\x1d\x8f\xc3\xf9w\xac}=\x85iY\x85\xefYf\xcb\x7f\x9c\xf7]\x9f\x7f\x8bj[\x8d|\xf6\xf9L\xf4d\xdb\xf9\xa3D}{P\x99v\xd2\xf3N7\x86\x9e\xb1\x87R\xd7E\x87^\xcaDXlym\xf97\x80\xb0\xf2\xe39<_\x97\x0f\xec\x9f@\x87AH\xb1\'Z\xd1\xff\xb7\xfet\x9d1B\xa5\xdb\x07T\x9f\xcf\xdfx?\x97\xbf\x9f\xa5?\x9b\xd3\xd8zMm?\xcf\xdfx?\x90\x88\x1f\xcf\xd2\x9f\xce#\x9ej\n\xa5\xe9\xec=%\xfe~\xfb\xc1\xfc\x84@\xfe\x7f@\x8bAH\xb1\'Z\xd1\xadI\xe35\x05\x82\xff\x01@\x8dAH\xb1\'Z\xd1\xad]\x03L\xa7\xb2\x9f\x88\xfey\x1a\xa9\x0f\xe1\x1f\xcf@\x8aAH\xb4\xa5I\'ZB\xa1?\x84-5\xa7\xd7@\x8aAH\xb4\xa5I\'Z\x93\xc8_\x83!\xecG@\x8aAH\xb4\xa5I\'Y\x06I\x7f\x86@\xe9*\xc82K'
+2026-02-01 16:55:55 | DEBUG   | hpack.table | Resizing header table to 4096 from 4096
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoding b'\x18\x82\x10\x01\x1f\x10\x92I|\xa5\x89\xd3M\x1fj\x12q\xd8\x82\xa6\x0bS*\xcf\x7f\x10\x82Al\x85\x0b\x8e. \x7f\x1f\t\x86\xa8\xeb!\'\xb0\xbf\x1f\x15\x96\xddm_J\x00*a,j\x08\x02q@=q\xb6\xee6\xda\x98\xb4o\x10\x02hh\x82\n\xc1\x10\x8e=\x86\x98\xd5,9\x8bRV%\x16\xa1%\xb3\x02?0\x1f\'\x03jfe\x1f)\x8a\xa4~V\x1c\xc5\x81\xe7\x1a\x00?\x10\x8f\xf2\xb0\xfa\x8e\x91\x99d\xd8:\x91)\xec\xa4\xb2\x7f\x90}@\xba\xdbN\xa8\x05+\xa68)\xdb\xc3G\xd0\xbf\x1f\x0b\x83\x9b\xd9\xab\x1f\x12\x96\xddm_J\x00*a,j\x08\x02q@=q\xb6\xee6\xda\x98\xb4o\x1f\r\x84\x0b\xae\x88\x1f\x1f,\x8b\x84\x84-i[\x05D<\x86\xaao\x1f(\xdcI\xfa\x96\xa8\x00\x19[rR\x8c\xae\xb7\x1bM\xb8G\x1atn? e\x8d\xe9di\xa1}3\xf4\xfb\xcc\x89\xf7~\xd4\xc1\xe6\xb3XTA\xba\xda\xbe\x94\x00T\xc2X\xd4\x10\x04\xe2\x80~\xe0\x01p\x00S\x16\x8d\xffjh\x1f\x95\xa1\x98\xb0\x05\xe0\x03\xedK\xe7\xa4f\xaa\x05\xfaH\xb9\x0fO\xda\x9a\xc6\x99\xe0c\x10\x8aAl\xee[\x16I\xa95S\x7f\x8f$\x95,A\x92r\xfd\xa9!PH4d\xdd\xbb\x10\x8aAl\xee[\x16I\xa95S\x7f\x8a,\x93\x17\xedI-\xb2\x01\x05\x9f\x10\x8aAl\xee[\x16I\xa95S\x7f\x8b=\x86\x98\xd5}\xa9%\xb6@\x10\xb3\x10\x892\x16\x1fQ\xd23,I*\x83\xdfe\xa5\x10\x8d%\x06-IXv\xa6r\xd4\x93\x11cW\x89\x0b\xe2]\xf5\xc2\xcb\x8b\xb6\xef\x10\x8aAl\xee[\x16I\xa95S\x7f\xb6\x1fX\xab\xfbRB\xa0\x90\x7f!u\xc7\xdfe\xc0\xb6\xd8\x82\xf4L\xbe\x01<\xe3\xcf?\x10\x99t"u\xc0\xba\x08\x99\x13m\x86!\t\xb7b\x04Am\xb8\x82\xdf\xf3\xf7%\xb6@\x1f'
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 8, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b':status', b'200'), total consumed 4 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 31, consumed 2 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 18, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b'content-type', b'text/html; charset=utf-8'), total consumed 21 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 5, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b'ser', b'166.20'), total consumed 10 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 24, consumed 2 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 6, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b'cache-control', b'no-store'), total consumed 9 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 36, consumed 2 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 22, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b'expires', b'Sun, 01 Feb 2026 08:55:55 GMT'), total consumed 25 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (<memory at 0x000001A575865FC0>, b'1-1'), total consumed 7 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 14, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 2, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b'origin-agent-cluster', <memory at 0x000001A5758668C0>), total consumed 19 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 54, consumed 2 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 3, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b'server', <memory at 0x000001A575865780>), total consumed 6 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 56, consumed 2 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b'strict-transport-security', b'max-age=86400'), total consumed 13 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 15, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 16, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b'x-akamai-transformed', b'9 17547 0 pmb=mRUM,2'), total consumed 34 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 26, consumed 2 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 3, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b'content-encoding', b'gzip'), total consumed 6 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 33, consumed 2 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 22, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b'date', b'Sun, 01 Feb 2026 08:55:55 GMT'), total consumed 25 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 28, consumed 2 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 4, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b'content-length', b'17720'), total consumed 7 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 59, consumed 2 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 11, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b'vary', b'Accept-Encoding'), total consumed 14 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 55, consumed 2 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 92, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b'set-cookie', b'token=01f56feae75b456c647a69d1fb8fd442,3,983297; Expires=Sun, 01 Feb 2026 09:00:00 GMT; Max-Age=1800; Domain=.jd.com; Path=/'), total consumed 95 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 15, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b'server-timing', b'cdn-cache; desc=MISS'), total consumed 28 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b'server-timing', b'edge; dur=213'), total consumed 23 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 11, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b'server-timing', b'origin; dur=113'), total consumed 24 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 9, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 3, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b'is-akamai-cdn', b'True'), total consumed 15 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 13, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 9, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b'client-authentic-ip', b'192.9.136.57'), total consumed 25 bytes, indexed False
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 10, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded 54, consumed 1 bytes
+2026-02-01 16:55:55 | DEBUG   | hpack.hpack | Decoded (b'server-timing', b'ak_p; desc="1769936155218_390286889_2371276170_32551_2257_0_155_15";dur=1'), total consumed 67 bytes, indexed False
+2026-02-01 16:55:56 | DEBUG   | src.jd_api | 获取商品信息成功: SKU=100211422735, 名称=【理光GRIIIx HDF】理光（Ric...
+2026-02-01 16:55:56 | INFO    | src.monitor | 检查商品: 理光相机2 | 价格: ¥0.0 | 库存: 未知
+2026-02-01 16:55:56 | INFO    | src.monitor | 检测到变化: 理光相机2, 变化: {'is_new': True}
+2026-02-01 16:55:58 | INFO    | src.notifier | Telegram 消息发送成功
+2026-02-01 16:55:58 | DEBUG   | src.monitor | 状态保存成功
+2026-02-01 16:55:58 | INFO    | src.monitor | 检查完成，共 2 个商品
+2026-02-01 16:57:42 | DEBUG   | asyncio | Using proactor: IocpProactor
+2026-02-01 16:57:42 | INFO    | src.monitor | ==================================================
+2026-02-01 16:57:42 | INFO    | src.monitor | 开始检查 - 2026-02-01 16:57:42
+2026-02-01 16:57:42 | INFO    | src.cookie_manager | Cookie 加载成功
+2026-02-01 16:57:57 | INFO    | src.cookie_manager | Cookie 格式检查通过，用户: jd_5f952e33ff3b5
+2026-02-01 16:57:57 | INFO    | src.monitor | 加载了 2 个商品的历史状态
+2026-02-01 16:58:05 | INFO    | src.jd_api | 获取商品信息成功: SKU=100268293328, 名称=理光相机1..., 价格=¥0.0, 库存=未知
+2026-02-01 16:58:05 | INFO    | src.monitor | 检查商品: 理光相机1 | 价格: ¥0.0 | 库存: 未知
+2026-02-01 16:58:05 | DEBUG   | src.monitor | 无变化: 理光相机1
+2026-02-01 16:58:12 | INFO    | src.jd_api | 获取商品信息成功: SKU=100211422735, 名称=理光相机2..., 价格=¥0.0, 库存=未知
+2026-02-01 16:58:12 | INFO    | src.monitor | 检查商品: 理光相机2 | 价格: ¥0.0 | 库存: 未知
+2026-02-01 16:58:12 | DEBUG   | src.monitor | 无变化: 理光相机2
+2026-02-01 16:58:12 | DEBUG   | src.monitor | 状态保存成功
+2026-02-01 16:58:12 | INFO    | src.monitor | 检查完成，共 2 个商品
+2026-02-01 17:02:03 | DEBUG   | asyncio | Using proactor: IocpProactor
+2026-02-01 17:02:03 | INFO    | src.monitor | ==================================================
+2026-02-01 17:02:03 | INFO    | src.monitor | 开始检查 - 2026-02-01 17:02:03
+2026-02-01 17:02:03 | INFO    | src.cookie_manager | Cookie 加载成功
+2026-02-01 17:02:16 | INFO    | src.cookie_manager | Cookie 格式检查通过，用户: jd_5f952e33ff3b5
+2026-02-01 17:02:16 | INFO    | src.monitor | 加载了 2 个商品的历史状态
+2026-02-01 17:02:27 | INFO    | src.jd_api | 商品信息: SKU=100268293328, 名称=理光相机1..., 价格=¥0.0, 库存=未知
+2026-02-01 17:02:27 | INFO    | src.monitor | 检查商品: 理光相机1 | 价格: ¥0.0 | 库存: 未知
+2026-02-01 17:02:27 | DEBUG   | src.monitor | 无变化: 理光相机1
+2026-02-01 17:02:34 | INFO    | src.jd_api | 商品信息: SKU=100211422735, 名称=理光相机2..., 价格=¥0.0, 库存=未知
+2026-02-01 17:02:34 | INFO    | src.monitor | 检查商品: 理光相机2 | 价格: ¥0.0 | 库存: 未知
+2026-02-01 17:02:34 | DEBUG   | src.monitor | 无变化: 理光相机2
+2026-02-01 17:02:34 | DEBUG   | src.monitor | 状态保存成功
+2026-02-01 17:02:34 | INFO    | src.monitor | 检查完成，共 2 个商品
+2026-02-01 17:05:47 | DEBUG   | asyncio | Using proactor: IocpProactor
+2026-02-01 17:05:47 | INFO    | src.monitor | ==================================================
+2026-02-01 17:05:47 | INFO    | src.monitor | 开始检查 - 2026-02-01 17:05:47
+2026-02-01 17:05:47 | INFO    | src.cookie_manager | Cookie 加载成功
+2026-02-01 17:05:48 | INFO    | src.cookie_manager | Cookie 格式检查通过，用户: jd_5f952e33ff3b5
+2026-02-01 17:05:48 | INFO    | src.monitor | 加载了 2 个商品的历史状态
+2026-02-01 17:06:15 | DEBUG   | src.jd_api | 请求超时，重试 2/2: https://p.3.cn/prices/mgets
+2026-02-01 17:06:49 | DEBUG   | src.jd_api | 请求异常: ConnectError
+2026-02-01 17:07:02 | DEBUG   | src.jd_api | 请求异常: ConnectError
+2026-02-01 17:07:02 | INFO    | src.jd_api | 商品状态: 理光相机1... | ¥0.0 | 未知
+2026-02-01 17:07:02 | INFO    | src.monitor | 检查商品: 理光相机1 | 价格: ¥0.0 | 库存: 未知
+2026-02-01 17:07:02 | DEBUG   | src.monitor | 无变化: 理光相机1
+2026-02-01 17:07:31 | DEBUG   | src.jd_api | 请求超时，重试 2/2: https://p.3.cn/prices/mgets
+2026-02-01 17:08:05 | DEBUG   | src.jd_api | 请求异常: ConnectError
+2026-02-01 17:08:20 | DEBUG   | src.jd_api | 请求异常: ConnectError
+2026-02-01 17:08:20 | INFO    | src.jd_api | 商品状态: 理光相机2... | ¥0.0 | 未知
+2026-02-01 17:08:20 | INFO    | src.monitor | 检查商品: 理光相机2 | 价格: ¥0.0 | 库存: 未知
+2026-02-01 17:08:20 | DEBUG   | src.monitor | 无变化: 理光相机2
+2026-02-01 17:08:20 | DEBUG   | src.monitor | 状态保存成功
+2026-02-01 17:08:20 | INFO    | src.monitor | 检查完成，共 2 个商品
+2026-02-01 17:11:49 | DEBUG   | asyncio | Using proactor: IocpProactor
+2026-02-01 17:11:49 | INFO    | src.monitor | ==================================================
+2026-02-01 17:11:49 | INFO    | src.monitor | 京东商品监控启动
+2026-02-01 17:11:49 | INFO    | src.monitor | 监控间隔: 60 秒
+2026-02-01 17:11:49 | INFO    | src.monitor | 监控模式: multi
+2026-02-01 17:11:49 | INFO    | src.monitor | 监控商品数: 2
+2026-02-01 17:11:49 | INFO    | src.monitor |   - 理光相机1
+2026-02-01 17:11:49 | INFO    | src.monitor |   - 理光相机2
+2026-02-01 17:11:53 | INFO    | src.notifier | Telegram 连接成功，Bot: @onlybulidbbot
+2026-02-01 17:11:56 | INFO    | src.notifier | Telegram 消息发送成功
+2026-02-01 17:11:56 | INFO    | src.monitor | ==================================================
+2026-02-01 17:11:56 | INFO    | src.monitor | 开始检查 - 2026-02-01 17:11:56
+2026-02-01 17:11:56 | INFO    | src.cookie_manager | Cookie 加载成功
+2026-02-01 17:11:57 | INFO    | src.cookie_manager | Cookie 格式检查通过，用户: jd_5f952e33ff3b5
+2026-02-01 17:11:57 | INFO    | src.monitor | 加载了 2 个商品的历史状态
+2026-02-01 17:12:23 | DEBUG   | src.jd_api | 请求超时，重试 2/2: https://p.3.cn/prices/mgets
+2026-02-01 17:12:56 | DEBUG   | src.jd_api | 请求异常: ConnectError
+2026-02-01 17:13:11 | DEBUG   | src.jd_api | 请求异常: ConnectError
+2026-02-01 17:13:11 | INFO    | src.jd_api | 商品状态: 理光相机1... | ¥0.0 | 未知
+2026-02-01 17:13:11 | INFO    | src.monitor | 检查商品: 理光相机1 | 价格: ¥0.0 | 库存: 未知
+2026-02-01 17:13:11 | DEBUG   | src.monitor | 无变化: 理光相机1
+2026-02-01 17:13:39 | DEBUG   | src.jd_api | 请求超时，重试 2/2: https://p.3.cn/prices/mgets
+2026-02-01 17:13:50 | INFO    | __main__ | 监控已停止
+2026-02-01 17:18:29 | DEBUG   | asyncio | Using proactor: IocpProactor
+2026-02-01 17:18:29 | INFO    | src.monitor | ==================================================
+2026-02-01 17:18:29 | INFO    | src.monitor | 开始检查 - 2026-02-01 17:18:29
+2026-02-01 17:18:29 | INFO    | src.cookie_manager | Cookie 加载成功
+2026-02-01 17:18:43 | INFO    | src.cookie_manager | Cookie 格式检查通过，用户: jd_5f952e33ff3b5
+2026-02-01 17:18:43 | INFO    | src.monitor | 加载了 2 个商品的历史状态
+2026-02-01 17:19:17 | DEBUG   | src.jd_api | 请求超时，重试 2/2: https://p.3.cn/prices/mgets
+2026-02-01 17:19:50 | DEBUG   | src.jd_api | 请求异常: ConnectError
+2026-02-01 17:20:08 | DEBUG   | src.jd_api | 解析库存失败: Expecting value: line 2 column 1 (char 1)
+2026-02-01 17:20:08 | DEBUG   | src.jd_api | 库存 API 不可用，尝试从页面解析
+2026-02-01 17:20:17 | INFO    | src.jd_api | 商品状态: 理光相机1... | ¥0.0 | 未知
+2026-02-01 17:20:17 | INFO    | src.monitor | 检查商品: 理光相机1 | 价格: ¥0.0 | 库存: 未知
+2026-02-01 17:20:17 | DEBUG   | src.monitor | 无变化: 理光相机1
+2026-02-01 17:20:48 | DEBUG   | src.jd_api | 请求超时，重试 2/2: https://p.3.cn/prices/mgets
+2026-02-01 17:21:21 | DEBUG   | src.jd_api | 请求异常: ConnectError
+2026-02-01 17:21:39 | DEBUG   | src.jd_api | 解析库存失败: Expecting value: line 2 column 1 (char 1)
+2026-02-01 17:21:39 | DEBUG   | src.jd_api | 库存 API 不可用，尝试从页面解析
+2026-02-01 17:21:41 | INFO    | src.jd_api | 商品状态: 理光相机2... | ¥0.0 | 未知
+2026-02-01 17:21:41 | INFO    | src.monitor | 检查商品: 理光相机2 | 价格: ¥0.0 | 库存: 未知
+2026-02-01 17:21:41 | DEBUG   | src.monitor | 无变化: 理光相机2
+2026-02-01 17:21:41 | DEBUG   | src.monitor | 状态保存成功
+2026-02-01 17:21:41 | INFO    | src.monitor | 检查完成，共 2 个商品
