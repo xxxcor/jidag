@@ -1,0 +1,20 @@
+[Unit]
+Description=JD Product Monitor
+After=network.target
+
+[Service]
+Type=simple
+# 修改为你的用户名
+User=ubuntu
+# 修改为实际的项目路径
+WorkingDirectory=/home/ubuntu/jd-monitor
+# 修改为实际的 Python 路径
+ExecStart=/usr/bin/python3 run.py
+Restart=always
+RestartSec=10
+# 日志输出到 systemd journal
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

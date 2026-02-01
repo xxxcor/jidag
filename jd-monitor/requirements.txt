@@ -1,0 +1,11 @@
+# HTTP 请求
+httpx[http2]>=0.25.0
+
+# 配置文件解析
+PyYAML>=6.0
+
+# 定时任务调度
+APScheduler>=3.10.0
+
+# 日志增强（可选）
+colorlog>=6.7.0
